@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/425/trunk/OATOSPlayer
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/423/trunk/OATOSPlayer/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/422/trunk/OATOSPlayer/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/423/trunk/OATOSPlayer/.project
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/422/trunk/OATOSPlayer/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/422/trunk/OATOSPlayer/AndroidManifest.xml
+END

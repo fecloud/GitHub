@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/381/trunk/AndDaemon
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/371/trunk/AndDaemon/ant.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/368/trunk/AndDaemon/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/368/trunk/AndDaemon/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/373/trunk/AndDaemon/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/368/trunk/AndDaemon/.project
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/368/trunk/AndDaemon/local.properties
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/367/trunk/AndDaemon/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/381/trunk/AndDaemon/AndroidManifest.xml
+END
+release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/372/trunk/AndDaemon/release-key.keystore
+END

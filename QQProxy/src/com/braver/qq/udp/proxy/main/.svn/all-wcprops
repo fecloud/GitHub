@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/430/trunk/QQProxy/src/com/braver/qq/udp/proxy/main
+END
+LocalQQServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/430/trunk/QQProxy/src/com/braver/qq/udp/proxy/main/LocalQQServer.java
+END
+RemoteQQServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/430/trunk/QQProxy/src/com/braver/qq/udp/proxy/main/RemoteQQServer.java
+END

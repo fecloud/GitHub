@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">名片易</string>
+    <string name="exit_confm">退出名片易吗?</string>
+    <string name="exit_title">提示</string>
+    <string name="enter">确定</string>
+    <string name="cancel">取消</string>
+    <string name="trytext">重试</string>
+    <string name="title_loading">加载中.....</string>
+    <string name="create_mp">创建名片</string>
+    <string name="login_mp">用绑定的帐号登录</string>
+    <string name="create_new_mp">创建新名片</string>
+    
+    <string name="loginnamecard">登录名片</string>
+    <string name="loginnamecard_login">登录</string>
+    <string name="loginnamecard_cancel">返回</string>
+    <string name="loginnamecard_BindStr_txt">帐号:</string>
+    <string name="loginnamecard_BindStr_txt_hint">请输入帐号</string>
+    <string name="loginnamecard_Password_txt">密码:</string>
+    <string name="loginnamecard_Password_txt_hint">请输入密码</string>
+    <string name="loginnamecard_sucess">登录成功</string>
+    
+    <string name="newnamecard_selecthaed">请选择</string>
+    <string name="newnamecard_formcamer">拍照上传</string>
+    <string name="newnamecard_formfile">选择文件</string>
+     <string name="newnamecard_tryupload">重新上传</string>
+    <string name="newnamecard_save">保存</string>
+    <string name="newnamecard_cancel">取消</string>
+    <string name="newnamecard_success">保存成功!</string>
+    <string name="newnamecard_heading">上传头像中,请稍侯再选择头像!</string>
+    <string name="newnamecard_heading_confim">用户头像未成功上传,请选择头像重试!</string>
+    <string name="newnamecard_head_sucess">上传成功</string>
+    <string name="newnamecard_head_fail">头像上传失败,是否重试?</string>
+    
+    <string name="cardinfo_name">名称:</string>
+	<string name="cardinfo_duty">职务:</string>
+	<string name="cardinfo_mobile">手机号码:</string>
+	<string name="cardinfo_email">邮件地址:</string>
+	<string name="cardinfo_officeTel">办公号码:</string>
+	<string name="cardinfo_officeFax">单位传真:</string>
+	<string name="cardinfo_compAddr">办公地址:</string>
+	<string name="cardinfo_compName">单位名称:</string>
+	<string name="cardinfo_compURL">公司主页:</string>
+	<string name="cardinfo_compIDLList">归属的群组列表，每个ID之间使用；隔开:</string>
+	<string name="cardinfo_photoID">图像编号:</string>
+	<string name="cardinfo_template">名片模板:</string>
+	<string name="cardinfo_extrInfo">扩展信息:</string>
+	<string name="cardinfo_tradeAddr">交换地址:</string>
+	<string name="cardinfo_tradeTime">交换时间:</string>
+	<string name="cardinfo_createTime">创建时间:</string>
+	
+	<string name="contact_getuser_loading">获取我的名片中.....</string>
+	<string name="contact_getuserhead_fail">获取用户头像失败,点击头像重试!</string>
+	<string name="contact_gegsm">获取位置中.....</string>
+	<string name="contact_gegsm_fail">无法取得位置,请重试!</string>
+	<string name="contact_opengps">名片易需要获取您的位置,请开启GPS!</string>
+	<string name="contact_tradeing_loading">获取交换名片中.....</string>
+	<string name="contact_tradeing">交换名片中.....</string>
+	<string name="contact_tile">名片中心</string>
+	<string name="contact_mypy">我的名片</string>
+	<string name="contact_jhpy">交换名片</string>
+	<string name="contact_unregisgter">注销</string>
+	<string name="contact_exit">退出</string>
+	<string name="contact_edit">编辑</string>
+	<string name="contact_trace">交换</string>
+	<string name="contact_getdata">获取数据中....</string>
+	<string name="contact_remy">更新我的名片</string>
+	<string name="contact_reother">更新交换名片</string>
+	<string name="contact_ref">刷新名片中心</string>
+	<string name="contact_requesttrade_fail">拉取交换名片失败,请重试!</string>
+	<string name="contact_intoother">还没有交换名片信息,\n请交换一个名片再进入!</string>
+	<string name="contact_trade_sucess">交换成功!</string>
+	<string name="contact_trade_fail">交换失败,请重试!</string>
+	
+	<string name="contactedit_title">编辑名片</string>
+	<string name="contactedit_save_success">修改成功</string>		
+	
+	<string name="bindnamecard">绑定名片</string>
+	<string name="bindnamecard_BindStr_txt_hint">请输入绑定帐号</string>
+	<string name="bindnamecard_Password_txt_hint">请输入绑定密码</string>
+	<string name="bindnamecard_save">绑定</string>
+    <string name="bindnamecard_cancel">取消</string>
+    <string name="bindnamecard_success">绑定名片成功!</string>
+    <string name="bindnamecard_fail">绑定名片失败!</string>
+    
+</resources>

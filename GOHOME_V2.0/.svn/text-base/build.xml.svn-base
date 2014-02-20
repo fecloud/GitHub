@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GOHOME" basedir="." default="release">
+
+	<property name="src.dir" location="src" />
+	<property name="bin.dir" location="bin" />
+	<property name="build.dir" location="build" />
+	<property name="libs.dir" location="libs" />
+	<property name="dest.dir" location="${build.dir}/classes" />
+	<property name="webapp.war" location="${build.dir}/gohome.war" />
+	<property name="webapp.dir" location="${build.dir}/webapp" />
+	<property name="web-info" location="WEB-INF" />
+	<property name="webapp.web-info" location="${build.dir}/webapp/WEB-INF" />
+	<property name="webapp.weblib" location="${build.dir}/webapp/WEB-INF/lib" />
+	<property name="webapp.index" location="index.html" />
+	<property name="webapp.sound" location="marimba.mp3" />
+	<property name="webapp.njpg" location="1.jpg" />
+	<property name="build.bin.dir" location="build/bin" />
+	<property name="gohome" location="${build.dir}/gohome.jar" />
+	<property name="tomcat.dir" location="d:\apache-tomcat-7.0.42" />
+
+	<!--编译相关参数-->
+	<property name="java.encoding" value="UTF-8" />
+	<property name="java.target" value="1.6" />
+	<property name="java.source" value="1.6" />
+	<property name="verbose" value="false" />
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="-pre-compiler" depends="clean">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${dest.dir}" />
+	</target>
+
+	<target name="compiler" depends="-pre-compiler">
+		<echo level="info">compiler start</echo>
+		<javac srcdir="${src.dir}" destdir="${dest.dir}" encoding="${java.encoding}" target="${java.target}" includeantruntime="false" verbose="${verbose}" debug="on">
+			<classpath>
+				<fileset dir="${libs.dir}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<echo level="info">compiler finish</echo>
+	</target>
+
+	<target name="-cp_file" depends="compiler">
+		<copy todir="${dest.dir}" file="${src.dir}/log4j.properties" />
+		<copy todir="${dest.dir}" file="${src.dir}/station_name" />
+		<copy todir="${dest.dir}" file="${src.dir}/12306.keystore" />
+		<copy todir="${dest.dir}" file="${src.dir}/srca.cer" />
+	</target>
+
+	<target name="webapp" depends="release">
+		<echo>build web app</echo>
+		<mkdir dir="${webapp.dir}" />
+		<mkdir dir="${webapp.web-info}" />
+		<mkdir dir="${webapp.weblib}" />
+		<copydir dest="${webapp.web-info}" src="${web-info}">
+		</copydir>
+		<copy todir="${webapp.dir}" file="${webapp.index}" />
+		<copy todir="${webapp.dir}" file="${webapp.sound}" />
+		<copy todir="${webapp.dir}" file="${webapp.njpg}" />
+		<copy todir="${webapp.weblib}" file="${gohome}" />
+		<jar destfile="${webapp.war}" basedir="${webapp.dir}">
+		</jar>
+	</target>
+	
+	<target name="public" depends="webapp">
+		<delete dir="${tomcat.dir}\work"></delete>
+		<delete dir="${tomcat.dir}\webapps\gohome"></delete>
+		<delete file="${tomcat.dir}\webapps\gohome.war"></delete>
+		<copy file="${webapp.war}" todir="${tomcat.dir}\webapps\"></copy>
+	</target>
+
+	<target name="release" depends="-cp_file">
+		<echo level="info">package jar gohome</echo>
+		<jar destfile="${gohome}" basedir="${dest.dir}">
+			<zipfileset src="${libs.dir}/commons-beanutils-1.8.2.jar" />
+			<zipfileset src="${libs.dir}/commons-codec-1.6.jar" />
+			<zipfileset src="${libs.dir}/commons-collections-3.2.1.jar" />
+			<zipfileset src="${libs.dir}/commons-lang-2.5.jar" />
+			<zipfileset src="${libs.dir}/commons-logging-1.1.1.jar" />
+			<zipfileset src="${libs.dir}/commons-logging-1.1.3.jar" />
+			<zipfileset src="${libs.dir}/ezmorph-1.0.6.jar" />
+			<zipfileset src="${libs.dir}/filterbuilder.jar" />
+			<zipfileset src="${libs.dir}/fluent-hc-4.3.1.jar" />
+			<zipfileset src="${libs.dir}/htmllexer.jar" />
+			<zipfileset src="${libs.dir}/htmlparser.jar" />
+			<zipfileset src="${libs.dir}/httpclient-4.3.1.jar" />
+			<zipfileset src="${libs.dir}/httpclient-cache-4.3.1.jar" />
+			<zipfileset src="${libs.dir}/httpcore-4.3.jar" />
+			<zipfileset src="${libs.dir}/httpmime-4.3.1.jar" />
+			<zipfileset src="${libs.dir}/json-lib-2.3-jdk15.jar" />
+			<zipfileset src="${libs.dir}/log4j-1.2.17.jar" />
+			<zipfileset src="${libs.dir}/sitecapturer.jar" />
+			<zipfileset src="${libs.dir}/thumbelina.jar" />
+			<manifest>
+				<attribute name="Main-class" value="com.braver.gohome.ui.Main" />
+			</manifest>
+		</jar>
+		<echo level="info">package jar finish</echo>
+	</target>
+
+</project>

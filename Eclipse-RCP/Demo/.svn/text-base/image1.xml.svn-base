@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<case>
+    <variable name="fail0" value-type="131074" var-purpose="1" var_desc="null" ><![CDATA[0]]></variable>
+    <variable name="fail1" value-type="131074" var-purpose="1" var_desc="null" ><![CDATA[-1]]></variable>
+    <variable name="pass" value-type="131074" var-purpose="1" var_desc="null" ><![CDATA[1]]></variable>
+    <variable name="timer1" value-type="131074" var-purpose="1" var_desc="null" ><![CDATA[0]]></variable>
+
+    <property name="id" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[138]]></property>
+    <property name="caseType" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[1]]></property>
+    <property name="name" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[访问WAP页面]]></property>
+    <property name="suite" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[12]]></property>
+    <property name="comment" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[]]></property>
+    <step type="9">
+        <property name="next" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s2_transactionStart]]></property>
+		<property name="serialNO" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[0]]></property>
+		<property name="name" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[开始]]></property>
+        <property name="key" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s1_start]]></property>
+	</step>
+	<step type="6">
+		<property name="summary" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[999001]]></property>
+        <property name="next" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s3_transactionStart]]></property>
+		<property name="serialNO" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[1]]></property>
+		<property name="name" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[事务开始]]></property>
+        <property name="TransactionName" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[999001]]></property>
+        <property name="comment" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[]]></property>
+        <property name="key" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s2_transactionStart]]></property>
+	</step>
+	<step type="6">
+		<property name="summary" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[999020]]></property>
+        <property name="next" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s4_call]]></property>
+		<property name="serialNO" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[2]]></property>
+		<property name="name" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[事务开始]]></property>
+        <property name="TransactionName" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[999020]]></property>
+        <property name="comment" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[]]></property>
+        <property name="key" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s3_transactionStart]]></property>
+	</step>
+	<step type="15">
+        <property name="summary" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[登录互联网]]></property>
+        <property name="next-false" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s14_transactionEnd]]></property>
+        <property name="next" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[]]></property>
+        <property name="serialNO" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[3]]></property>
+        <property name="name" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[调用公共过程]]></property>
+        <property name="next-true" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s5_call]]></property>
+        <property name="comment" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[]]></property>
+        <property name="function-path" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[SamsungI9108/登录互联网]]></property>
+        <property name="key" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[s4_call]]></property>
+        <property name="param-count" value-type="65537" var-purpose="1" var_desc="null" ><![CDATA[0]]></property>
+    </step>
+</case>

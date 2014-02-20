@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/80/trunk/IpUpload/libs
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/74/trunk/IpUpload/libs/mail.jar
+END
+log4j-1.2.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/80/trunk/IpUpload/libs/log4j-1.2.17.jar
+END
+commons-email-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/74/trunk/IpUpload/libs/commons-email-1.2.jar
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/servicekey/dao
+END
+IServiceIndexRelationDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/servicekey/dao/IServiceIndexRelationDao.java
+END
+ServiceIndexRelationDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/servicekey/dao/ServiceIndexRelationDao.java
+END

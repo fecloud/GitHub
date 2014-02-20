@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/test_version"
+            android:layout_width="fill_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="@string/test" />
+
+        <Button
+            android:id="@+id/official_version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/official"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/man_upload_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/man_upload_result" />
+
+        <Button
+            android:id="@+id/man_update_script"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/man_update_script" />
+
+        <Button
+            android:id="@+id/man_update_task"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/man_update_task" />
+
+        <Button
+            android:id="@+id/import_localscript_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/import_localscript" />
+
+        <Button
+            android:id="@+id/importfile_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/import_file" />
+
+        <Button
+            android:id="@+id/exportfile_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_file" />
+
+        <Button
+            android:id="@+id/permissionsdb_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/db_permissions" />
+    </LinearLayout>
+
+</ScrollView>

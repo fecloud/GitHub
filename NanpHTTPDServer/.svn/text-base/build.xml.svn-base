@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="NanpHTTPDServer" basedir="." default="build-all">
+
+	<property name="src.dir" location="src" />
+	<property name="build.dir" location="build" />
+	<property name="libs.dir" location="libs" />
+	<property name="dest.dir" location="${build.dir}/classes" />
+	<property name="jar" location="${build.dir}/${ant.project.name}.jar" />
+
+	<!--编译相关参数-->
+	<property name="java.encoding" value="UTF-8" />
+	<property name="java.target" value="1.5" />
+	<property name="java.source" value="1.5" />
+	<property name="verbose" value="false" />
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="-pre-compiler" depends="clean">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${dest.dir}" />
+	</target>
+
+	<target name="compiler" depends="-pre-compiler">
+		<echo level="info">compiler start</echo>
+		<javac srcdir="${src.dir}" destdir="${dest.dir}" encoding="${java.encoding}" target="${java.target}" includeantruntime="false" verbose="${verbose}">
+			<classpath>
+				<fileset dir="${libs.dir}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<echo level="info">compiler finish</echo>
+	</target>
+
+
+
+
+
+	<target name="jar" depends="compiler">
+		<echo level="info">package jar InternetProxoy</echo>
+		<jar destfile="${jar}" basedir="${dest.dir}">
+		</jar>
+		<echo level="info">package jar finish</echo>
+	</target>
+
+	<target name="build-all" depends="clean,jar" />
+
+
+</project>

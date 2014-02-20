@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/execute
+END
+ContentValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/execute/ContentValues.java
+END
+CommandConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/execute/CommandConstants.java
+END
+TransactionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/execute/TransactionData.java
+END
+ITestService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/execute/ITestService.aidl
+END
+ContentValues.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/execute/ContentValues.aidl
+END
+TransactionData.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/execute/TransactionData.aidl
+END

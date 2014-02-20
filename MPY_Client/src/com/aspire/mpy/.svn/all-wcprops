@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy
+END
+MpyApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/MpyApp.java
+END
+Const.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/Const.java
+END
+BindNameCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/BindNameCard.java
+END
+CreateNewNameCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/CreateNewNameCard.java
+END
+MyLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/MyLocation.java
+END
+LoginSignup.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/LoginSignup.java
+END
+LoginNameCard.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/LoginNameCard.java
+END

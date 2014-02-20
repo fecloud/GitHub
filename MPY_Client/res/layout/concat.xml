@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bg">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/title_bar_bg" android:gravity="center_vertical"
+		android:id="@+id/title">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="18.0dip"
+			android:id="@+id/title_bar_title" style="@style/title_bar_text"
+			android:text="@string/contact_tile" ></TextView>
+	</LinearLayout>
+	
+	<ImageView android:layout_width="wrap_content" android:layout_alignParentRight="true" 
+			android:layout_height="wrap_content" android:background="@drawable/controlbar_refresh"
+			android:layout_marginRight="18dip" android:onClick="onCenterRef" android:layout_marginTop="1.5dip" />
+	
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="0dip" 
+			android:layout_alignParentBottom="true" android:gravity="top"  android:id="@+id/bottom_bar"
+			android:background="@drawable/vertical" >
+		<TextView android:layout_width="wrap_content" android:layout_height="41dip" 
+			android:layout_weight="1"  android:gravity="center"  
+			style="@style/title_bar_text" android:onClick="tabOnclick0" android:lines="1"
+			 android:text="@string/contact_mypy" android:id="@+id/concat_mypy" />
+			 
+		<TextView android:layout_width="wrap_content" android:layout_height="41dip" 
+			style="@style/title_bar_text" android:onClick="tabOnclick1"  android:lines="1"
+			android:text="@string/contact_jhpy" android:layout_weight="1" 
+			android:gravity="center" android:id="@+id/concat_jhpy" />
+	</LinearLayout>
+	
+	<RelativeLayout android:layout_width="fill_parent"
+		android:gravity="center" android:layout_height="fill_parent"
+		android:layout_below="@id/title" android:layout_above="@id/bottom_bar" android:id="@+id/content">
+		<include layout="@layout/contact_center"/>
+	</RelativeLayout>
+	
+</RelativeLayout>

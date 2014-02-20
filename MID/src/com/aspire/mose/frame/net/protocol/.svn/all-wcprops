@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol
+END
+IDataProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/IDataProtocol.java
+END
+IDataProtocolObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/IDataProtocolObject.java
+END

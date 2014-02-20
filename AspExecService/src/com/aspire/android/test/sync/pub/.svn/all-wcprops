@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/sync/pub
+END
+LocalFtpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/sync/pub/LocalFtpClient.java
+END
+RemoteFtpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/sync/pub/RemoteFtpClient.java
+END
+LocalHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/sync/pub/LocalHttpClient.java
+END
+RemoteHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/sync/pub/RemoteHttpClient.java
+END

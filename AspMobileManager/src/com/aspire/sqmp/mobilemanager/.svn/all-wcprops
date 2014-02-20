@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager
+END
+MobileManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/MobileManager.java
+END
+CreateOrSelectDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/CreateOrSelectDialog.java
+END
+AboutDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/AboutDialog.java
+END
+ListDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/ListDialog.java
+END
+SettingDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/SettingDialog.java
+END
+DevicesInfoDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/DevicesInfoDialog.java
+END
+MainApplicationWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/MainApplicationWindow.java
+END

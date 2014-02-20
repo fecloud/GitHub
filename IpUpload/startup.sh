@@ -1,0 +1,1 @@
+java -Dworkdir=`pwd`/../ -classpath . -jar ipupload-run.jar 

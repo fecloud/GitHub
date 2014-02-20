@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--run model:0:模拟器运行模式,1：手机运行模式  -->
+	<run_model>1</run_model>
+	
+	<!-- 现网环境   业务支撑平台、上网本平台、下载资源服务器 
+	
+	<url_service>http://221.179.9.155:8085/mid/client</url_service>
+	<url_netbook>http://10.0.0.147/mid/client</url_netbook>
+	<url_resource>http://221.179.9.155:8085/middls/dlegver</url_resource>
+	<url_directories>221.179.9.155:8085</url_directories>  	 -->
+
+	<!--演示环境   业务支撑平台、上网本平台、下载资源服务器-->
+    <url_service>http://211.139.191.156:8085/mid/client</url_service>
+	<url_netbook>http://10.0.0.147/mid/client</url_netbook>
+	<url_resource>http://211.139.191.156:8085/middls/dlegver</url_resource>
+	<url_directories>211.139.191.156:8085</url_directories> 
+	
+
+		<!--测试环境   业务支撑平台、上网本平台、下载资源服务器-->
+		<!--
+	<url_service>http://211.139.191.156:8090/mid/client</url_service>
+	<url_netbook>http://10.0.0.147/mid/client</url_netbook>
+	<url_resource>http://211.139.191.156:8090/middls/dlegver</url_resource>
+	<url_directories>211.139.191.156:8090</url_directories>   -->
+	
+	<!-- log在缓存最大存储量 -->
+	<logsize>1000</logsize>
+	
+	<!-- 短信拦截接入号 -->
+	<sms>106586828</sms>
+	
+	<!-- APN切换超时时间 -->
+	<apn_timeout>20000</apn_timeout>
+	
+	<!-- HTTP超时设置 -->
+	<http-timeout>
+		<connect>20000</connect>
+		<read>40000</read>
+	</http-timeout>
+</resources>

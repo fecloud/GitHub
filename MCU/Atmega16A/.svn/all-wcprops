@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/504/trunk/MCU/Atmega16A
+END
+AVR开发板原理图.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/490/trunk/MCU/Atmega16A/AVR%E5%BC%80%E5%8F%91%E6%9D%BF%E5%8E%9F%E7%90%86%E5%9B%BE.pdf
+END
+KeyInterrupt.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/492/trunk/MCU/Atmega16A/KeyInterrupt.c
+END
+RuningLED.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/491/trunk/MCU/Atmega16A/RuningLED.c
+END
+Atmega16芯片资料.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/490/trunk/MCU/Atmega16A/Atmega16%E8%8A%AF%E7%89%87%E8%B5%84%E6%96%99.pdf
+END
+UART.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/490/trunk/MCU/Atmega16A/UART.c
+END
+AVR熔丝设置.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/490/trunk/MCU/Atmega16A/AVR%E7%86%94%E4%B8%9D%E8%AE%BE%E7%BD%AE.pdf
+END
+Timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/493/trunk/MCU/Atmega16A/Timer.c
+END
+AVR开发板说明书.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/490/trunk/MCU/Atmega16A/AVR%E5%BC%80%E5%8F%91%E6%9D%BF%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf
+END
+Buzzer.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/491/trunk/MCU/Atmega16A/Buzzer.c
+END

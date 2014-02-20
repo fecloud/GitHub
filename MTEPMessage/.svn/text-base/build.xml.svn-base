@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MTEPMessage" basedir="." default="package-jar">
+
+	<!--定义文件夹 -->
+	<property name="source.dir" value="src" />
+	<property name="out.dir" value="build" />
+	<property name="dest.dir" value="${out.dir}/classes" />
+	<property name="libs" value="lib" />
+	<!--定义输出jar包名称 -->
+	<property name="package.jar" value="${out.dir}/mtepmessage.jar" />
+
+	<!--编译相关参数-->
+	<property name="java.encoding" value="UTF-8" />
+	<property name="java.target" value="1.5" />
+	<property name="java.source" value="1.5" />
+	<property name="verbose" value="false" />
+
+	<target name="-pre-compile" depends="-clean">
+		<echo level="info">create build dir</echo>
+		<mkdir dir="${out.dir}" />
+	</target>
+
+	<!--清理 -->
+	<target name="-clean">
+		<echo level="info">cleaning dir</echo>
+		<delete dir="${out.dir}" />
+	</target>
+
+	<!--编译 -->
+	<target name="-compile" depends="-pre-compile">
+		<echo level="info">compiler start</echo>
+		<mkdir dir="${dest.dir}" />
+		<javac srcdir="${source.dir}" destdir="${dest.dir}" encoding="${java.encoding}" target="${java.target}" includeantruntime="false" verbose="${verbose}">
+			<classpath>
+				<fileset dir="${libs}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<echo level="info">compiler finish</echo>
+	</target>
+
+	<!--打包成jar -->
+	<target name="package-jar" depends="-compile">
+		<echo level="info">package jar start</echo>
+		<jar destfile="${package.jar}" basedir="${dest.dir}" />
+		<echo level="info">package jar finish</echo>
+		<delete dir="${dest.dir}" description="delete compile dir" />
+	</target>
+
+</project>

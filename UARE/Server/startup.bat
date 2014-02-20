@@ -1,0 +1,1 @@
+java -Dworkdir=%cd%\..\ -classpath . -jar server-run.jar

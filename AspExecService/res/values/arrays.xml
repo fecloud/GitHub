@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- flow_mode -->
+    <string-array name="results_uploads">
+        <item>@string/upload_now</item>
+        <item>@string/uploaded_regularly</item>
+        <item>@string/manually_upload</item>
+    </string-array>
+    <string-array name="flow_mode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="set_citys">
+        <item>@string/set_province_confim</item>
+    </string-array>
+    <string-array name="set_city_values">
+        <item>0</item>
+    </string-array>
+  <!--   文件操作 
+    <string-array name="file_optin_item">
+        <item>@string/import_file</item>
+        <item>@string/export_file</item>
+    </string-array>
+    <string-array name="file_optin_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array> -->
+    <string-array name="data_get_type_entries">
+        <item>@string/data_get_type_local</item>
+        <item>@string/data_get_type_server</item>
+    </string-array>
+    <string-array name="data_get_type_entryvalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

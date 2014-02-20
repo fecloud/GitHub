@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/357/trunk/protobuf-socket-rpc
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/.project
+END
+callcmd.bat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/357/trunk/protobuf-socket-rpc/callcmd.bat
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/.classpath
+END

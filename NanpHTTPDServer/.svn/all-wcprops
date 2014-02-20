@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/464/trunk/NanpHTTPDServer
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/457/trunk/NanpHTTPDServer/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/457/trunk/NanpHTTPDServer/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/460/trunk/NanpHTTPDServer/build.xml
+END

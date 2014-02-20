@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cases>
+    <case>com.aspire.android.test.demo.DemoTestCase</case>
+    <case>com.aspire.android.test.demo.Case1</case>
+    <case>com.aspire.android.test.demo.Case2</case>
+    <case>com.aspire.android.test.demo.Case3</case>
+</cases>

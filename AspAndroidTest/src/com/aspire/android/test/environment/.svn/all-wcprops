@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/environment
+END
+Environment.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/environment/Environment.java
+END
+IDeviceEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/environment/IDeviceEntity.java
+END
+DeviceEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/environment/DeviceEntity.java
+END
+IEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/environment/IEnvironment.java
+END

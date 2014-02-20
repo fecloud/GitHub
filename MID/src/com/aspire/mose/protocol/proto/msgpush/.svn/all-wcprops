@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/msgpush
+END
+MsgMessageStateRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/msgpush/MsgMessageStateRequest.java
+END
+MsgMessagePushResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/msgpush/MsgMessagePushResponse.java
+END
+MsgMessageStateResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/msgpush/MsgMessageStateResponse.java
+END
+MsgMessagePushRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/msgpush/MsgMessagePushRequest.java
+END

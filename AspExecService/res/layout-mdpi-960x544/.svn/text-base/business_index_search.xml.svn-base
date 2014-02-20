@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/FrameLayout08"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/business_type"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/business_type" />
+
+        <EditText
+            android:id="@+id/businessContent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/business_type"
+            android:inputType="text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/FrameLayout09"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@id/FrameLayout08"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/indexSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/index_name" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/search" />
+
+        <EditText
+            android:id="@+id/indexContent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/searchButton"
+            android:layout_toRightOf="@id/indexSearch"
+            android:inputType="text" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/taskSearchList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/FrameLayout09"
+        android:layout_margin="5dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/white"
+        android:dividerHeight="3dip"
+        android:fadingEdge="none" >
+    </ListView>
+
+</RelativeLayout>

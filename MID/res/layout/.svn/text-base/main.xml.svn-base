@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@android:color/white"
+    >
+
+     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text="@string/startService"
+        android:onClick="startService"
+        android:textColor="@android:color/black"
+        android:layout_margin="30dp" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text="@string/stopService"
+        android:onClick="stopService"
+        android:textColor="@android:color/black"
+        android:layout_margin="30dp" />
+
+</LinearLayout>

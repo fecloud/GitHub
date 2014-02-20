@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/300/trunk/UARE/Server/src/com/inspurworld/server/restore
+END
+ClientRestoreService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/298/trunk/UARE/Server/src/com/inspurworld/server/restore/ClientRestoreService.java
+END
+RestoreCenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/300/trunk/UARE/Server/src/com/inspurworld/server/restore/RestoreCenter.java
+END
+RestoreLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/264/trunk/UARE/Server/src/com/inspurworld/server/restore/RestoreLoader.java
+END

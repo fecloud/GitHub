@@ -1,0 +1,2 @@
+java -jar gohome.jar -Uoyf_feng -Pouyangfeng -Shttp://kyfw.12306.cn -Mhttp -R欧阳锋 -d2014-01-12 -CCode.jpg
+keytool -import -alias 12306certs -file -keystore 12306.keystore

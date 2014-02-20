@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/message/bean
+END
+IMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/message/bean/IMsg.java
+END
+IDataProtocolProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/message/bean/IDataProtocolProxy.java
+END
+IBodyCatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/message/bean/IBodyCatch.java
+END

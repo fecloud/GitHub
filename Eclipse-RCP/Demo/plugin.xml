@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="demo.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="demo.Perspective"
+            id="Demo.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="demo.HelloView"
+            id="demo.HelloView"
+            name="测试案例">
+      </view>
+      <view
+            class="demo.canvas.CanvasView"
+            id="demo.canvas.CanvasView"
+            name="绘制图形">
+      </view>
+      <view
+            class="demo.HaHaView"
+            id="demo.HaHaView"
+            name="New ViewPart">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+   </extension>
+</plugin>

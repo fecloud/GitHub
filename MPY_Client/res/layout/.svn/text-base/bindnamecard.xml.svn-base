@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bg">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/title_bar_bg" android:gravity="center_vertical"
+		android:id="@+id/title">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="18.0dip"
+			android:textSize="19sp" android:id="@+id/title_bar_title"
+			android:text="@string/bindnamecard" android:textColor="@android:color/white"></TextView>
+	</LinearLayout>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:gravity="center" android:layout_height="fill_parent"
+		android:layout_below="@id/title">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_marginLeft="20sp" android:layout_marginRight="20sp"
+			android:layout_height="wrap_content" android:background="@drawable/login_bg"
+			android:orientation="vertical">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:layout_marginTop="0dip">
+				<TextView android:layout_width="wrap_content"
+					android:gravity="center" android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true" android:textSize="19sp"
+					android:layout_weight="1" android:textColor="@android:color/white" android:text="@string/bindnamecard"></TextView>
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical"
+				android:layout_margin="20dip">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:orientation="horizontal">
+					<TextView android:layout_height="wrap_content"
+						android:layout_alignParentLeft="true" android:textSize="19sp"
+						android:text="@string/loginnamecard_BindStr_txt"
+						android:textColor="@android:color/white" android:layout_width="45dip"></TextView>
+					<EditText android:layout_alignParentRight="true"
+						android:hint="@string/bindnamecard_BindStr_txt_hint"
+						android:layout_height="40dip" android:background="@drawable/edit_login_bg" android:id="@+id/bindnamecard_bindStr" android:layout_width="170dip"/>
+				</LinearLayout>
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:layout_marginTop="20dip">
+					<TextView android:layout_height="wrap_content"
+						android:layout_alignParentLeft="true" android:textSize="19sp"
+						android:text="@string/loginnamecard_Password_txt"
+						android:textColor="@android:color/white" android:layout_width="45dip"></TextView>
+					<EditText android:layout_alignParentRight="true"
+						android:hint="@string/bindnamecard_Password_txt_hint"
+						android:layout_height="40dip"   android:background="@drawable/edit_login_bg" android:id="@+id/bindnamecard_password" android:password="true" android:layout_width="170dip"/>
+				</LinearLayout>
+
+
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:layout_marginTop="30dip">
+					<Button android:id="@+id/button1" style="@style/normal_btn"
+						android:text="@string/bindnamecard_save" android:layout_width="wrap_content"
+						android:layout_height="40dip" android:layout_weight="1"
+						android:layout_marginRight="30dip" android:onClick="bind" />
+					<Button android:id="@+id/button2" android:text="@string/bindnamecard_cancel"
+						style="@style/normal_btn" android:layout_width="wrap_content"
+						android:layout_height="40dip" android:layout_weight="1"
+						android:layout_marginLeft="30dip" android:onClick="cancel" />
+
+				</LinearLayout>
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+	</RelativeLayout>
+</RelativeLayout>
+

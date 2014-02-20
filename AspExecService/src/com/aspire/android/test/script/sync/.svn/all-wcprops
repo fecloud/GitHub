@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/sync
+END
+ESScriptNoteDownloadHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/sync/ESScriptNoteDownloadHandler.java
+END
+ESScriptSearchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/sync/ESScriptSearchHandler.java
+END
+ESScriptFileDownloadHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/sync/ESScriptFileDownloadHandler.java
+END
+ESScriptRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/sync/ESScriptRequest.java
+END
+LocalScriptParsor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/sync/LocalScriptParsor.java
+END

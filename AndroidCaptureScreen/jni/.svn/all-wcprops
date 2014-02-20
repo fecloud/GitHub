@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/jni
+END
+ScreenEvent.2.3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/jni/ScreenEvent.2.3.cpp
+END
+AgentDaemon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/jni/AgentDaemon.cpp
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/jni/Android.mk
+END
+ScreenEvent.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/jni/ScreenEvent.h
+END
+clear.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/jni/clear.sh
+END

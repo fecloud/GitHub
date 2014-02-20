@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util
+END
+CastUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/CastUtil.java
+END
+FtpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/FtpClient.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/FileUtil.java
+END
+XmlUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/XmlUtil.java
+END
+HttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/HttpClient.java
+END
+MobileManagerConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/MobileManagerConstants.java
+END
+StringConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/StringConstants.java
+END
+VerifyTextUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/util/VerifyTextUtil.java
+END

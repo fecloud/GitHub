@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/353/trunk/UARE/Agent/src/com/aspire/uare/agent/monitor/event
+END
+TouchMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/monitor/event/TouchMonitor.java
+END
+KeyEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/monitor/event/KeyEvent.java
+END
+KeyMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/monitor/event/KeyMonitor.java
+END
+InputEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/353/trunk/UARE/Agent/src/com/aspire/uare/agent/monitor/event/InputEvent.java
+END
+TouchEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/monitor/event/TouchEvent.java
+END
+InputEventReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/352/trunk/UARE/Agent/src/com/aspire/uare/agent/monitor/event/InputEventReader.java
+END

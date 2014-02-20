@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/taskSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/task_name" />
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dip"
+            android:text="@string/search" />
+
+        <EditText
+            android:id="@+id/searchContent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="2dip"
+            android:layout_toLeftOf="@id/searchButton"
+            android:layout_toRightOf="@id/taskSearch"
+            android:hint="@string/hint_content" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/taskSearchList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/FrameLayout01"
+        android:layout_margin="5dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/white"
+        android:dividerHeight="3dip"
+        android:fadingEdge="none" >
+    </ListView>
+
+</RelativeLayout>

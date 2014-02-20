@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity
+END
+TaskBathItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/TaskBathItem.java
+END
+IndexListing.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/IndexListing.java
+END
+TaskItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/TaskItem.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/Task.java
+END
+TaskItemBatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/TaskItemBatch.java
+END
+Upload.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/Upload.java
+END
+TaskBatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/TaskBatch.java
+END
+TaskTaskItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/TaskTaskItem.java
+END
+QueryResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/entity/QueryResults.java
+END

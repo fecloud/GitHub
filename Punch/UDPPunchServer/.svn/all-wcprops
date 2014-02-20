@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/418/trunk/Punch/UDPPunchServer
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/416/trunk/Punch/UDPPunchServer/.project
+END
+startup.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/416/trunk/Punch/UDPPunchServer/startup.bat
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/416/trunk/Punch/UDPPunchServer/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/416/trunk/Punch/UDPPunchServer/.classpath
+END

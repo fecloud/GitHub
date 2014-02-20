@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InspurAgent</string>
+    <string name="grabsreen">截图</string>
+    <string name="startsucess">启动成功</string>
+    <string name="startfail">启动失败</string>
+    <string name="settings">设置</string>
+    <string name="setting_name">Setting</string>
+    <string name="start">开始</string>
+    <string name="stop">结束</string>
+    <string name="upload">上传</string>
+
+</resources>

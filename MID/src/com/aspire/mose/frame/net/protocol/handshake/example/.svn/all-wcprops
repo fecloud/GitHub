@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake/example
+END
+HSMsgHead.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake/example/HSMsgHead.java
+END
+HKProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake/example/HKProtocol.java
+END
+DeHSMsgBodyTemp.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake/example/DeHSMsgBodyTemp.java
+END
+HSMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake/example/HSMsg.java
+END

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="300dip" android:orientation="horizontal"
+		android:layout_height="wrap_content" android:background="@drawable/alertdlg_title_bg"
+		android:gravity="center_vertical" >
+		<ImageView android:layout_height="wrap_content" android:src="@drawable/dialog_select_icon"
+				 android:id="@+id/imageView1" android:layout_width="wrap_content" 
+				 android:layout_alignParentLeft="true"  android:layout_marginLeft="25.0dip"/>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/white"
+		 		android:layout_marginLeft="9.0dip" android:textSize="18sp" android:id="@+id/alert_title"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:background="@drawable/alertdlg_content_bg">
+		 <LinearLayout android:orientation="vertical" android:layout_marginBottom="1dip" android:layout_marginTop="1dip"
+				 android:id="@+id/message" android:layout_width="fill_parent" 
+				 android:layout_height="fill_parent"  android:padding="0dip" >
+					<Button android:layout_width="fill_parent" android:layout_height="50dip" 
+						style="@style/dialoglist_item"  android:text="@string/newnamecard_formcamer"
+						android:id="@+id/newnamecard_formcamer" />
+						<Button android:layout_width="fill_parent" android:layout_height="1dip" 
+						android:background="@drawable/hi_mycard_bg_item_edit_bak_focus" 
+						/>
+					
+					<Button android:layout_width="fill_parent" android:layout_height="50dip" 
+						style="@style/dialoglist_item" android:text="@string/newnamecard_formfile"
+						android:id="@+id/newnamecard_formfile" />
+					<Button android:layout_width="fill_parent" android:layout_height="1dip" 
+						android:background="@drawable/hi_mycard_bg_item_edit_bak_focus" android:id="@+id/newnamecard_tryupload_it"
+						/>
+					<Button android:layout_width="fill_parent" android:layout_height="50dip" 
+						style="@style/dialoglist_item"  android:text="@string/newnamecard_tryupload" 
+						android:id="@+id/newnamecard_tryupload" />
+						
+		</LinearLayout>
+	</LinearLayout>
+ 
+	<LinearLayout android:layout_width="fill_parent" android:orientation="horizontal"
+				 
+				android:layout_height="wrap_content" android:background="@drawable/alertdlg_bottom_bg"
+				android:gravity="center" >
+		<LinearLayout android:layout_width="wrap_content"  android:layout_height="wrap_content"
+			android:gravity="center">
+
+		<Button android:layout_width="180dip" android:id="@+id/alert_android_cancel" 
+				android:textColor="@android:color/white"
+				android:layout_height="wrap_content" android:background="@drawable/button_bg" 
+				android:text="@string/cancel" android:textSize="18sp"  />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg
+END
+CardFileReadResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileReadResponse.java
+END
+APSMessageCodec.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/APSMessageCodec.java
+END
+GrabImageRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/GrabImageRequest.java
+END
+GetScreenDimensionsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/GetScreenDimensionsResponse.java
+END
+TouchDownResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchDownResponse.java
+END
+CardFileWriteRequset.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileWriteRequset.java
+END
+ErrorReportRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/ErrorReportRequest.java
+END
+KeyDownResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeyDownResponse.java
+END
+TouchUpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchUpRequest.java
+END
+MutilTouchMoveResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/MutilTouchMoveResponse.java
+END
+TouchUpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchUpResponse.java
+END
+KeyUpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeyUpRequest.java
+END
+TouchClickResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchClickResponse.java
+END
+ErrorResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/ErrorResponse.java
+END
+HeartBeatRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/HeartBeatRequest.java
+END
+CardFileCloseRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileCloseRequest.java
+END
+MutilTouchUpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/MutilTouchUpRequest.java
+END
+TouchDClickResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchDClickResponse.java
+END
+TouchSlideRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchSlideRequest.java
+END
+KeyUpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeyUpResponse.java
+END
+AgentResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/AgentResponse.java
+END
+KeyClickResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeyClickResponse.java
+END
+HeartBeatResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/HeartBeatResponse.java
+END
+CardFileCloseResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileCloseResponse.java
+END
+FileOperationResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/FileOperationResponse.java
+END
+GetScreenDimensionsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/GetScreenDimensionsRequest.java
+END
+SetKeyIntervalRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/SetKeyIntervalRequest.java
+END
+TouchMoveRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchMoveRequest.java
+END
+TouchSlideResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchSlideResponse.java
+END
+TouchDownRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchDownRequest.java
+END
+ImageMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/ImageMessage.java
+END
+TouchMoveResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchMoveResponse.java
+END
+SetKeyIntervalResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/SetKeyIntervalResponse.java
+END
+APSMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/APSMessage.java
+END
+SetImageParamRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/SetImageParamRequest.java
+END
+KeyDownRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeyDownRequest.java
+END
+KeySequenceRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeySequenceRequest.java
+END
+MutilTouchMoveRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/MutilTouchMoveRequest.java
+END
+GrabImageResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/GrabImageResponse.java
+END
+MutilTouchDownRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/MutilTouchDownRequest.java
+END
+SetImageParamResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/SetImageParamResponse.java
+END
+TTRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TTRequest.java
+END
+KeySequenceResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeySequenceResponse.java
+END
+RawTypeMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/RawTypeMessage.java
+END
+TouchClickRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchClickRequest.java
+END
+CardFileWriteResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileWriteResponse.java
+END
+MutilTouchDownResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/MutilTouchDownResponse.java
+END
+CardFileOpenRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileOpenRequest.java
+END
+TouchDClickRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TouchDClickRequest.java
+END
+TTResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/TTResponse.java
+END
+CommonResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CommonResponse.java
+END
+KeyClickRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/KeyClickRequest.java
+END
+FileOperationRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/FileOperationRequest.java
+END
+FileData.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/FileData.java
+END
+CardFileOpenResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileOpenResponse.java
+END
+CardFileReadRequset.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/CardFileReadRequset.java
+END
+MutilTouchUpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mcts/agent/msg/MutilTouchUpResponse.java
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc
+END
+PersistentConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/PersistentConnection.java
+END
+ServerRpcConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/ServerRpcConnectionFactory.java
+END
+SocketRpcServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketRpcServer.java
+END
+SocketRpcChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketRpcChannel.java
+END
+RpcConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/RpcConnectionFactory.java
+END
+SocketServerRpcConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketServerRpcConnectionFactory.java
+END
+RpcChannelImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/RpcChannelImpl.java
+END
+RpcForwarder.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/RpcForwarder.java
+END
+RpcChannels.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/RpcChannels.java
+END
+SocketRpcController.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketRpcController.java
+END
+SocketRpcProtos.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketRpcProtos.java
+END
+SocketRpcConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketRpcConnectionFactory.java
+END
+SocketConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketConnection.java
+END
+RpcServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/RpcServer.java
+END
+PersistentRpcConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/PersistentRpcConnectionFactory.java
+END
+SocketRpcConnectionFactories.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/356/trunk/protobuf-socket-rpc/protobuffer/com/googlecode/protobuf/socketrpc/SocketRpcConnectionFactories.java
+END

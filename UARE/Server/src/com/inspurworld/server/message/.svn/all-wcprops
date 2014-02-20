@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/298/trunk/UARE/Server/src/com/inspurworld/server/message
+END
+ConnectionMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/199/trunk/UARE/Server/src/com/inspurworld/server/message/ConnectionMessageListener.java
+END
+ImageUpLoadMessageExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/298/trunk/UARE/Server/src/com/inspurworld/server/message/ImageUpLoadMessageExec.java
+END
+MessaExceFinishListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/237/trunk/UARE/Server/src/com/inspurworld/server/message/MessaExceFinishListener.java
+END

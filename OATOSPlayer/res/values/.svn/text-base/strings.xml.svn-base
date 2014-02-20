@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OATOSPlayer</string>
+    <string name="favorites">收藏</string>
+    <string name="cancle_favorites">取消收藏</string>
+    <string name="share">分享</string>
+    <string name="delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="player_loading">正在载入,请稍后&#8230;</string>
+
+</resources>

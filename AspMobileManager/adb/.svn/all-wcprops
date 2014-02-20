@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/386/trunk/AspMobileManager/adb
+END
+AdbWinUsbApi.dll
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/386/trunk/AspMobileManager/adb/AdbWinUsbApi.dll
+END
+adb.exe
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/386/trunk/AspMobileManager/adb/adb.exe
+END
+AdbWinApi.dll
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/386/trunk/AspMobileManager/adb/AdbWinApi.dll
+END

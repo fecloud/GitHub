@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/443/trunk/Android_WFU/src/com/braver/android/wfupload/monitor
+END
+WIFIMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/443/trunk/Android_WFU/src/com/braver/android/wfupload/monitor/WIFIMonitor.java
+END
+Monitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/443/trunk/Android_WFU/src/com/braver/android/wfupload/monitor/Monitor.java
+END
+SdCardMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/443/trunk/Android_WFU/src/com/braver/android/wfupload/monitor/SdCardMonitor.java
+END

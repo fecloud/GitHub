@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/35/trunk/CPAttachment
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/35/trunk/CPAttachment/.project
+END
+system.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/35/trunk/CPAttachment/system.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/35/trunk/CPAttachment/.classpath
+END

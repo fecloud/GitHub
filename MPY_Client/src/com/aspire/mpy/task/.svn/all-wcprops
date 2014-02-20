@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/task
+END
+HttpNormalTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/task/HttpNormalTask.java
+END
+ITask.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/task/ITask.java
+END
+TaskManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/task/TaskManager.java
+END
+ITaskListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/task/ITaskListener.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/task/Task.java
+END

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+	android:layout_height="30dip" android:padding="0dip" android:background="@drawable/hi_mycard_bg_item"
+	android:gravity="center_vertical" android:id="@+id/bottom_bar"  >
+	<TextView android:layout_width="wrap_content" android:layout_marginLeft="15dip" 
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:textColor="@android:color/black"
+		android:textSize="15sp" android:layout_weight="1" android:text="@string/cardinfo_duty"
+		  />
+	<EditText android:layout_width="wrap_content" android:id="@+id/bindStr" android:textSize="15sp"
+		android:layout_alignParentRight="true" android:background="@drawable/hi_mycard_bg_item_edit"
+		android:layout_height="20dip" android:layout_weight="13" android:layout_marginRight="15dip" />
+</LinearLayout>

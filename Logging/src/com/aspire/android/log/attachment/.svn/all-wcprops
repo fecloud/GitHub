@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/21/trunk/Logging/src/com/aspire/android/log/attachment
+END
+LogAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/21/trunk/Logging/src/com/aspire/android/log/attachment/LogAttachment.java
+END
+ImageAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/21/trunk/Logging/src/com/aspire/android/log/attachment/ImageAttachment.java
+END
+BinaryAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/21/trunk/Logging/src/com/aspire/android/log/attachment/BinaryAttachment.java
+END

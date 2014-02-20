@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/sync
+END
+TaskXmlProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/sync/TaskXmlProcessor.java
+END
+TaskQueryHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/sync/TaskQueryHandler.java
+END
+TaskRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/sync/TaskRequest.java
+END

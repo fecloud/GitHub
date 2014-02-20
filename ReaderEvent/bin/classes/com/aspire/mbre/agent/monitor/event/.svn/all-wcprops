@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/382/trunk/ReaderEvent/bin/classes/com/aspire/mbre/agent/monitor/event
+END
+InputEventProcess.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/382/trunk/ReaderEvent/bin/classes/com/aspire/mbre/agent/monitor/event/InputEventProcess.class
+END
+InputEvent.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/382/trunk/ReaderEvent/bin/classes/com/aspire/mbre/agent/monitor/event/InputEvent.class
+END
+InputEventReader.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/382/trunk/ReaderEvent/bin/classes/com/aspire/mbre/agent/monitor/event/InputEventReader.class
+END
+InputEventReader$CallBack.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/382/trunk/ReaderEvent/bin/classes/com/aspire/mbre/agent/monitor/event/InputEventReader$CallBack.class
+END
+InputEvent$InputEventType.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/382/trunk/ReaderEvent/bin/classes/com/aspire/mbre/agent/monitor/event/InputEvent$InputEventType.class
+END

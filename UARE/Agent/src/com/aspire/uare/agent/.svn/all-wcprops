@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/353/trunk/UARE/Agent/src/com/aspire/uare/agent
+END
+AgentApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/AgentApplication.java
+END
+EventMonitorActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/EventMonitorActivity.java
+END
+SettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/SettingActivity.java
+END
+AgentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/AgentActivity.java
+END

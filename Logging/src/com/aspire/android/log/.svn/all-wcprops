@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/114/trunk/Logging/src/com/aspire/android/log
+END
+LogLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/17/trunk/Logging/src/com/aspire/android/log/LogLevel.java
+END
+CaseLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/16/trunk/Logging/src/com/aspire/android/log/CaseLogger.java
+END
+LogManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/110/trunk/Logging/src/com/aspire/android/log/LogManager.java
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/110/trunk/Logging/src/com/aspire/android/log/Logger.java
+END
+LogEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/20/trunk/Logging/src/com/aspire/android/log/LogEvent.java
+END

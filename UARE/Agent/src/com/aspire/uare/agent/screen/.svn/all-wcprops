@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/screen
+END
+GrabImageResponseListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/screen/GrabImageResponseListener.java
+END
+WhileGrabScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/screen/WhileGrabScreen.java
+END
+WhileGrabScreenTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/screen/WhileGrabScreenTask.java
+END
+OnGrabScreenFinish.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/screen/OnGrabScreenFinish.java
+END
+GrabScreenService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/screen/GrabScreenService.java
+END

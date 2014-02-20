@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/server
+END
+PropertyManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/server/PropertyManager.java
+END
+IServerMessageHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/server/IServerMessageHandle.java
+END
+RequestHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/server/RequestHandle.java
+END
+ExecServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/server/ExecServer.java
+END

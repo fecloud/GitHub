@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FetionTestCaseActivity!</string>
+    <string name="app_name">微博通测试</string>
+    <string name="startTest">开始测试</string>
+    <string name="testing">正在测试</string>
+    <string name="finishTest">完成测试</string>
+    <string name="startLog">测试日志</string>
+    <string name="testSuccess">测试成功</string>
+    <string name="testfail">测试失败</string>
+
+</resources>

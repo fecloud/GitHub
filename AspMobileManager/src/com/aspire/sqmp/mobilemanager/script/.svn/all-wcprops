@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/script
+END
+MScriptRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/script/MScriptRequest.java
+END
+SyncScriptToMobile.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/script/SyncScriptToMobile.java
+END
+MScriptNoteDownloadHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/script/MScriptNoteDownloadHandler.java
+END
+MScriptSearchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/script/MScriptSearchHandler.java
+END

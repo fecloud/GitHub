@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/com.aspire.android.test.execute"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#767c9b"
+    android:orientation="vertical" >
+
+    <com.aspire.android.test.execute.ui.Panel
+        android:id="@+id/topPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dip"
+        panel:animationDuration="1000"
+        panel:closedHandle="@drawable/top_switcher_collapsed_background"
+        panel:linearFlying="true"
+        panel:openedHandle="@drawable/top_switcher_expanded_background"
+        panel:position="top" >
+
+        <Button
+            android:id="@id/panelHandle"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@id/panelContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/FrameLayout08"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/business_type"
+                    android:layout_width="75dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/business_type" />
+
+                <EditText
+                    android:id="@+id/businessContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@id/business_type"
+                    android:inputType="text" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/FrameLayout09"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_below="@id/FrameLayout08"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/indexSearch"
+                    android:layout_width="75dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:text="@string/index_name" />
+
+                <Button
+                    android:id="@+id/searchButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/search" />
+
+                <EditText
+                    android:id="@+id/indexContent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toLeftOf="@id/searchButton"
+                    android:layout_toRightOf="@id/indexSearch"
+                    android:inputType="text" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#323299"
+                android:gravity="center"
+                android:padding="4dip"
+                android:textColor="#eee"
+                android:textSize="16dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </com.aspire.android.test.execute.ui.Panel>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/businessIndexSearchList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/FrameLayout09"
+            android:layout_margin="5dip"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/white"
+            android:dividerHeight="3dip"
+            android:fadingEdge="none" >
+        </ListView>
+    </LinearLayout>
+
+ </LinearLayout>

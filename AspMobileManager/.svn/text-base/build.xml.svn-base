@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<project name="AspMobileManager" default="jar" basedir=".">
+	<property file="build.properties" />
+	<property name="java.target.version" value="1.6" />
+	<property name="base.path" value="." />
+	
+	<!-- native.path -->
+	<property name="docs.path" location="${base.path}/docs" />
+	<property name="adb.path" location="${base.path}/adb" />
+	<property name="libs.path" location="${base.path}/libs" />
+	<property name="data.path" location="${base.path}/data" />
+	<property name="bat.path" location="${base.path}/bat" />
+	<property name ="logback.file" location="${base.path}/src/logback.xml"/>
+	
+	<!-- out.path -->
+	<property name="out.path" location="${base.path}/build" />
+	<property name="out.path.temp" location="${out.path}/temp" />
+	<property name="out.path.class" location="${out.path.temp}/class" />
+	<property name="out.path.libs" location="${out.path.temp}/lib" />
+	<property name="out.path.data" location="${out.path.temp}/data" />
+	<property name="out.path.adb" location="${out.path.temp}/adb" />
+	<property name="out.path.libs.x86" location="${out.path.libs}/x86" />
+	<property name="out.path.libs.x86.32" location="${out.path.libs}/x86_64" />
+	
+	
+	<property name="encoding" value="UTF-8" />
+	<property name="excludes" value="**/svn/*,**/.nbattrs,**/.project,**/.classpath" />
+
+	<property name="export.name" value="asp_mobile_manager" />
+	<property name="x86.jar" value="swt-3.7.2-win32-win32-x86.jar"/>
+	<property name="x86.32.jar" value="swt-3.7.2-win32-win32-x86_64.jar"/>
+	
+
+	<target name="clean" description="Delete existing output directories">
+		<delete dir="${out.path}" />
+	
+	</target>
+
+	<target name="compile" depends="clean" description="Compile the project classes">
+
+		<mkdir dir="${out.path}" />
+		<mkdir dir="${out.path.temp}" />
+		<mkdir dir="${out.path.class}" />
+		<mkdir dir="${out.path.libs}" />
+		<mkdir dir="${out.path.data}" />	
+		<mkdir dir="${out.path.adb}" />
+		<mkdir dir="${out.path.libs.x86}" />
+		<mkdir dir="${out.path.libs.x86.32}" />
+
+		<javac srcdir="${base.path}/src" destdir="${out.path.class}" includeantruntime ="on" encoding="${encoding}" source="1.6" target="${java.target.version}">
+			<classpath>
+				<fileset dir="${libs.path}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile" description="Generate the getdata4products.jar files">
+		<copy todir="${out.path.libs}">
+			<fileset dir="${libs.path}" includes="**/*.jar" excludes="${excludes},${x86.32.jar},${x86.jar}" />
+		</copy>
+			<copy todir="${out.path.libs.x86}">
+			<fileset dir="${libs.path}" includes="${x86.jar}"  />
+		</copy>
+			<copy todir="${out.path.libs.x86.32}">
+			<fileset dir="${libs.path}" includes="${x86.32.jar}"  />
+		</copy>
+		<copy todir="${out.path.data}">
+			<fileset dir="${data.path}" includes="*" excludes="${excludes},*.*" />
+		</copy>
+			<copy todir="${out.path.adb}">
+			<fileset dir="${adb.path}" includes="*,*.*" excludes="${excludes}" />
+		</copy>
+		
+		<copy todir="${out.path.temp}">
+			<fileset dir="${bat.path}" includes="**/*.bat" excludes="${excludes}" />
+		    <fileset dir="${docs.path}" includes="*.doc,*.txt" excludes="${excludes}" />
+			<fileset file="${logback.file}" />
+		</copy>
+		
+		<zip zipfile="${out.path.libs}/${export.name}.jar" >
+			<zipfileset dir="${out.path.class}" />
+		</zip>
+		<delete dir="${out.path.class}" />
+		<zip zipfile="${out.path}/${ant.project.name}.zip" >
+			<zipfileset dir="${out.path.temp}" />
+		</zip>
+		<delete dir="${out.path.temp}" />
+		
+	</target>
+
+</project>

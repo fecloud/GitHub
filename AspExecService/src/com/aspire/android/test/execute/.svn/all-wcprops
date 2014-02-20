@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute
+END
+TestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/TestService.java
+END
+ExecuteService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/ExecuteService.java
+END
+RestartService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/RestartService.java
+END
+EsStatusManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/EsStatusManager.java
+END
+SmsReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/SmsReceiver.java
+END
+DeviceEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/DeviceEntity.java
+END
+NameConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/NameConstants.java
+END

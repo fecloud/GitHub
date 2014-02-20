@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/bean
+END
+PhotoInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/bean/PhotoInfo.java
+END
+CardInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/bean/CardInfo.java
+END
+CardID.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/bean/CardID.java
+END
+BindInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/bean/BindInfo.java
+END
+UserInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/bean/UserInfo.java
+END
+TradeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/bean/TradeInfo.java
+END

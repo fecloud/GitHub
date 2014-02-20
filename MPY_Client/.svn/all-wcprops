@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/9/trunk/MPY_Client
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9/trunk/MPY_Client/build.properties
+END
+release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/MPY_Client/release-key.keystore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/9/trunk/MPY_Client/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/9/trunk/MPY_Client/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/9/trunk/MPY_Client/proguard.cfg
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/MPY_Client/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/9/trunk/MPY_Client/.project
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/9/trunk/MPY_Client/build.bat
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9/trunk/MPY_Client/local.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/trunk/MPY_Client/AndroidManifest.xml
+END

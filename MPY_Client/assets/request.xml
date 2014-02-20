@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req>
+	<Cmd>9</Cmd>
+	<Version>1.0</Version>
+	<Number>1</Number>
+	<MyCardID>
+		<ID>37</ID>
+		<Version>5</Version>
+	</MyCardID>
+	<CardID>
+		<ID>null</ID>
+		<Version>null</Version>
+	</CardID>
+</req>

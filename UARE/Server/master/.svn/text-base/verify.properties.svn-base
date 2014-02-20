@@ -1,0 +1,9 @@
+#key:image name not .jpg 
+#vlaue:inputimage x,y,w,h and template image x,y,w,h and colorToleranceAsPercent(0 ~ 100) 
+cn.com.fetion.android.ui.activities.RegisterByNotCMWAPActivity_email=438,89,146,47,0,0,0,0,30
+cn.com.fetion.android.ui.activities.RegisterByNotCMWAPActivity_message=59,87,137,43,0,0,0,0,30
+cn.com.fetion.android.ui.activities.RegisterByNotCMWAPActivity_mobile=239,83,165,49,0,0,0,0,30
+cn.com.fetion.android.ui.activities.MainActivityGroup_session=39,868,95,92,0,0,0,0,30
+cn.com.fetion.android.ui.activities.MainActivityGroup_friend=192,865,102,95,0,0,0,0,30
+cn.com.fetion.android.ui.activities.MainActivityGroup_tongchuang=357,869,76,91,0,0,0,0,30
+cn.com.fetion.android.ui.activities.MainActivityGroup_guangchang=515,867,70,93,0,0,0,0,30

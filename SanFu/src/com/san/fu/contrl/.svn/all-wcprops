@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/60/trunk/SanFu/src/com/san/fu/contrl
+END
+UserRegContrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/51/trunk/SanFu/src/com/san/fu/contrl/UserRegContrl.java
+END
+AbstactUserContrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/56/trunk/SanFu/src/com/san/fu/contrl/AbstactUserContrl.java
+END
+UserTpContrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/51/trunk/SanFu/src/com/san/fu/contrl/UserTpContrl.java
+END
+UserNameCreateContrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/trunk/SanFu/src/com/san/fu/contrl/UserNameCreateContrl.java
+END
+UserLoginContrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/60/trunk/SanFu/src/com/san/fu/contrl/UserLoginContrl.java
+END

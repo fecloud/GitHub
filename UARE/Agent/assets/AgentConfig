@@ -1,0 +1,6 @@
+/dev/graphics/fb0
+/dev/input/event2
+115=/dev/input/event1
+114=/dev/input/event1
+107=/dev/input/event0
+212=/dev/input/event1

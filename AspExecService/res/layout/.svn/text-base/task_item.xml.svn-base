@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/task_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/task_title"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/business_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/task_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="12dip" />
+
+</RelativeLayout>

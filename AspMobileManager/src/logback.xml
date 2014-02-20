@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================================================== -->
+<!-- 《说明》 -->
+<!-- 1、使用logback.xml :需要：slf4j-api-1.6.1.jar,logback-classic.jar,logback-core.jar, -->
+<!-- jcl-over-slf4j-1.6.1.jar,log4j-over-slf4j-1.6.1.jar -->
+<!-- 去掉log4j.jar, commons-logging.jar , slf4j-log4j12-1.6.1.jar -->
+<!-- 2、configuration 中 debug="true" 属性配置表示输出logback本身状态信息，当不需要时，可以去除此配置 -->
+<!-- 3、自动重新加载配置：configuration 元素的 scan 属性为 true，当发生变化后进行重新配置，开发时建议用 -->
+<!-- ============================================================================================== -->
+
+<configuration debug="false" scan="true">
+	<!-- 日志基准目录，相对于tomcat，也可定义绝对目录 -->
+	<substitutionProperty name="log.dir" value="./logs" />
+
+	<!-- 标准、缺省日志输出 把日志输出到控制台 -->
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>[%-5level]: %date ：[%logger{80}] - %msg%n</pattern>
+		</layout>
+		<Encoding>UTF-8</Encoding>
+	</appender>
+
+	<!-- info日志 -->
+	<appender name="alllog"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!-- 输出文件 -->
+		<File>${log.dir}/log.txt</File>
+		<append>true</append>
+		<!-- 输出格式 -->
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>[%-5level]: %date ：[%logger{80}] - %msg%n</pattern>
+		</layout>
+		<Encoding>UTF-8</Encoding>
+		<!-- 日志输出滚动策略 （采用时间和文件大小双策略） -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>${log.dir}/info-%d-%i.log.zip</FileNamePattern>
+			<!-- 保存30天的记录 -->
+			<maxHistory>30</maxHistory>
+			<!-- 文件最大滚动限制 -->
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+
+	<!-- error日志 -->
+	<appender name="errorlog"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!-- 输出文件 -->
+		<File>${log.dir}/error.txt</File>
+		<append>true</append>
+		<!-- 输出格式 -->
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>[%-5level]: %date ：[%logger{80}] - %msg%n</pattern>
+		</layout>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">  
+            <level>ERROR</level>  
+        </filter>
+		<Encoding>UTF-8</Encoding>
+		<!-- 日志输出滚动策略 （采用时间和文件大小双策略） -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>${log.dir}/error-%d-%i.log.zip</FileNamePattern>
+			<!-- 保存30天的记录 -->
+			<maxHistory>30</maxHistory>
+			<!-- 文件最大滚动限制 -->
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+
+	<!-- 设置日志级别及输出方案 -->
+	<root level="ALL">
+		<appender-ref ref="stdout" />
+		<appender-ref ref="alllog" />
+		<appender-ref ref="errorlog" />
+	</root>
+</configuration>
+

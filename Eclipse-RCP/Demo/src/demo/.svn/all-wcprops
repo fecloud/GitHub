@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo
+END
+Perspective.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/Perspective.java
+END
+HelloEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/HelloEditor.java
+END
+HelloEditorInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/HelloEditorInput.java
+END
+HaHaView.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/HaHaView.java
+END
+Activator.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/Activator.java
+END
+HelloView.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/HelloView.java
+END
+ApplicationActionBarAdvisor.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/ApplicationActionBarAdvisor.java
+END
+ApplicationWorkbenchAdvisor.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/ApplicationWorkbenchAdvisor.java
+END
+Application.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/Application.java
+END
+ApplicationWorkbenchWindowAdvisor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/ApplicationWorkbenchWindowAdvisor.java
+END

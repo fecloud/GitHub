@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/src/com/braver/android/screen/capture
+END
+NativeScreenCapture.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/src/com/braver/android/screen/capture/NativeScreenCapture.java
+END
+CaptureThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/src/com/braver/android/screen/capture/CaptureThread.java
+END
+IScreenCapture.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/src/com/braver/android/screen/capture/IScreenCapture.java
+END
+ScreenCaptureService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/src/com/braver/android/screen/capture/ScreenCaptureService.java
+END
+ScreenCaptureImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/src/com/braver/android/screen/capture/ScreenCaptureImpl.java
+END
+CaptureTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/396/trunk/AndroidCaptureScreen/src/com/braver/android/screen/capture/CaptureTask.java
+END

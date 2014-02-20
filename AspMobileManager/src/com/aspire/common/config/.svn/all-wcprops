@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/config
+END
+IConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/config/IConfigDao.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/config/Config.java
+END
+PropertyConfigDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/config/PropertyConfigDao.java
+END
+ConfigManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/common/config/ConfigManager.java
+END

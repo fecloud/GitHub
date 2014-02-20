@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/288/trunk/UARE/Server/test/com/inspurworld/server
+END
+OCRTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/288/trunk/UARE/Server/test/com/inspurworld/server/OCRTest.java
+END
+VerifyTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/276/trunk/UARE/Server/test/com/inspurworld/server/VerifyTest.java
+END
+RestoreLoaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/276/trunk/UARE/Server/test/com/inspurworld/server/RestoreLoaderTest.java
+END
+ActivityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/276/trunk/UARE/Server/test/com/inspurworld/server/ActivityTest.java
+END

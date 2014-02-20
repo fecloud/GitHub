@@ -1,0 +1,15 @@
+
+option optimize_for = LITE_RUNTIME;
+
+option java_package = "com.braver.undpunch.protoc";
+option java_outer_classname = "PunchMessages";
+
+
+message PunchMessage{
+
+	 required int32 id = 1;
+
+	 required string type = 2;
+	 
+	 optional bytes data = 3;
+}

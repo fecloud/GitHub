@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/crypto
+END
+DES.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/crypto/DES.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/crypto/StringUtil.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/crypto/Base64.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/crypto/MD5.java
+END
+RSA.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/crypto/RSA.java
+END

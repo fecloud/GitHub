@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="300dip" android:orientation="horizontal"
+		android:layout_height="wrap_content" android:background="@drawable/alertdlg_title_bg"
+		android:gravity="center_vertical" >
+		<ImageView android:layout_height="wrap_content" android:src="@drawable/dialog_select_icon"
+				 android:id="@+id/imageView1" android:layout_width="wrap_content" 
+				 android:layout_alignParentLeft="true"  android:layout_marginLeft="25.0dip"/>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/white"
+		 		android:layout_marginLeft="9.0dip" android:textSize="18sp" android:id="@+id/alert_title"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:background="@drawable/alertdlg_content_bg">
+		<TextView android:textSize="19.0sp" android:textColor="#405060"
+		 android:gravity="center" android:id="@+id/message" android:layout_width="fill_parent"
+		 android:layout_height="fill_parent" android:layout_marginLeft="21dip" 
+		 android:layout_marginTop="31.0dip" android:layout_marginRight="21dip" 
+		 android:layout_marginBottom="30.0dip" />
+	</LinearLayout>
+ 
+	<LinearLayout android:layout_width="fill_parent" android:orientation="horizontal"
+				 
+				android:layout_height="wrap_content" android:background="@drawable/alertdlg_bottom_bg"
+				android:gravity="center" >
+		<LinearLayout android:layout_width="wrap_content"  android:layout_height="wrap_content">
+			<Button android:layout_width="wrap_content" android:id="@+id/alert_android_ok"
+				android:layout_height="wrap_content" android:background="@drawable/button_bg"
+				android:text="@string/enter"  android:textSize="18sp" android:textColor="@android:color/white"
+				android:layout_marginLeft="10dip" android:layout_marginRight="25dip" 
+				android:paddingLeft="15.0dip" android:paddingRight="25.0dip" />
+		<Button android:layout_width="wrap_content" android:id="@+id/alert_android_cancel" 
+				android:textColor="@android:color/white"
+				android:layout_height="wrap_content" android:background="@drawable/button_bg" 
+				android:text="@string/cancel" android:textSize="18sp" android:paddingLeft="25.0dip" 
+				android:paddingRight="15.0dip"
+				android:layout_marginLeft="15dip" android:layout_marginRight="15dip" />
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

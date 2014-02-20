@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/479/trunk/Punch/UDPPunchClient/protoc
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/478/trunk/Punch/UDPPunchClient/protoc/build.bat
+END
+punch_message.proto
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/479/trunk/Punch/UDPPunchClient/protoc/punch_message.proto
+END

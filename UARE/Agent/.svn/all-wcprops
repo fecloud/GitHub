@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/360/trunk/UARE/Agent
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/347/trunk/UARE/Agent/ant.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/347/trunk/UARE/Agent/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/347/trunk/UARE/Agent/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/347/trunk/UARE/Agent/project.properties
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/347/trunk/UARE/Agent/proguard.cfg
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/347/trunk/UARE/Agent/.project
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/347/trunk/UARE/Agent/local.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/347/trunk/UARE/Agent/AndroidManifest.xml
+END
+test-release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/358/trunk/UARE/Agent/test-release-key.keystore
+END
+release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/347/trunk/UARE/Agent/release-key.keystore
+END

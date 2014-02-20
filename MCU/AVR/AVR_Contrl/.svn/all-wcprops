@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/505/trunk/MCU/AVR/AVR_Contrl
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/497/trunk/MCU/AVR/AVR_Contrl/Program.cs
+END
+MainForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/501/trunk/MCU/AVR/AVR_Contrl/MainForm.Designer.cs
+END
+MainForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/501/trunk/MCU/AVR/AVR_Contrl/MainForm.cs
+END
+SettingForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/497/trunk/MCU/AVR/AVR_Contrl/SettingForm.resx
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/497/trunk/MCU/AVR/AVR_Contrl/app.config
+END
+Command_Execute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/501/trunk/MCU/AVR/AVR_Contrl/Command_Execute.cs
+END
+SettingForm.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/501/trunk/MCU/AVR/AVR_Contrl/SettingForm.Designer.cs
+END
+AVR_Contrl.csproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/497/trunk/MCU/AVR/AVR_Contrl/AVR_Contrl.csproj.user
+END
+SettingForm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/497/trunk/MCU/AVR/AVR_Contrl/SettingForm.cs
+END
+Serial_Port.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/501/trunk/MCU/AVR/AVR_Contrl/Serial_Port.cs
+END
+AVR_Contrl.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/500/trunk/MCU/AVR/AVR_Contrl/AVR_Contrl.csproj
+END
+MainForm.resx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/497/trunk/MCU/AVR/AVR_Contrl/MainForm.resx
+END
+AVR_Command.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/505/trunk/MCU/AVR/AVR_Contrl/AVR_Command.cs
+END

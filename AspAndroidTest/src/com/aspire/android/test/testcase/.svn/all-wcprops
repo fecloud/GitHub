@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/testcase
+END
+ITestListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/testcase/ITestListener.java
+END
+AbstractTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/testcase/AbstractTestCase.java
+END
+ITestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/388/trunk/AspAndroidTest/src/com/aspire/android/test/testcase/ITestCase.java
+END

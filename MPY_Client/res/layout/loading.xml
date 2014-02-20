@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" >
+	<TextView android:layout_width="fill_parent" style="@style/title_bar_text" 
+		android:text="@string/title_loading" android:gravity="center_horizontal"
+		android:layout_height="wrap_content" android:id="@+id/loading_title" />
+	<ImageView android:layout_width="fill_parent" android:id="@+id/loadingImage"
+		android:layout_height="wrap_content" android:background="@anim/loadingpng" />
+</LinearLayout>

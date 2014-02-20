@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/result/sync
+END
+DoUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/result/sync/DoUpload.java
+END
+WriteResultTxt.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/result/sync/WriteResultTxt.java
+END
+Code.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/result/sync/Code.java
+END
+ResultResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/result/sync/ResultResponseHandler.java
+END
+TestResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/result/sync/TestResult.java
+END
+FileHead.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/result/sync/FileHead.java
+END

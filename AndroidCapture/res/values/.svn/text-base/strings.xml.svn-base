@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android屏幕截图</string>
+    <string name="screencap_description">Android屏幕截图权限</string>
+
+</resources>

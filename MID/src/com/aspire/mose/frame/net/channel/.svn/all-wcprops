@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/channel
+END
+ISession.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/channel/ISession.java
+END
+IChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/channel/IChannel.java
+END
+IValidate.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/channel/IValidate.java
+END
+BaseChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/channel/BaseChannel.java
+END
+BaseValidate.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/channel/BaseValidate.java
+END

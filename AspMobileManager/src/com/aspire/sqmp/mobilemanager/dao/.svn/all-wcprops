@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/dao
+END
+DeviceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/dao/DeviceDao.java
+END
+IDeviceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/dao/IDeviceDao.java
+END

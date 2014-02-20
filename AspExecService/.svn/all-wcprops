@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/389/trunk/AspExecService
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/389/trunk/AspExecService/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/389/trunk/AspExecService/proguard.cfg
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/389/trunk/AspExecService/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/389/trunk/AspExecService/.project
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/389/trunk/AspExecService/local.properties
+END
+aspire-android-test-release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/389/trunk/AspExecService/aspire-android-test-release-key.keystore
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/389/trunk/AspExecService/AndroidManifest.xml
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/389/trunk/AspExecService/ant.properties
+END
+proguard.cfg.bak
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/389/trunk/AspExecService/proguard.cfg.bak
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/389/trunk/AspExecService/build.xml
+END

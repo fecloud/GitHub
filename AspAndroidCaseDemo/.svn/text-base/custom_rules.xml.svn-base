@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules" >
+	<property name="android.test.build.dir" value="build" />
+	<property name="android.test.attachment.dir" value="attachment" />
+	<property name="andriod.test.case.xml" value="case.xml" />
+	<property name="android.test.zip" value="${ant.project.name}.zip" />
+
+	<target name="-pre-clean">
+		<delete dir="${android.test.build.dir}" verbose="${verbose}" />
+	</target>
+
+	<target name="-pre-build">
+		<mkdir dir="${android.test.build.dir}" />
+	</target>
+
+	<target name="-post-build">
+		<!--Packaged into zip-->
+		<zip destfile="${android.test.build.dir}/${android.test.zip}">
+			<fileset file="${out.final.file}" />
+			<fileset file="${andriod.test.case.xml}" />
+			<fileset dir="${basedir}" includes="${android.test.attachment.dir}/**" />
+		</zip>
+	</target>
+</project>

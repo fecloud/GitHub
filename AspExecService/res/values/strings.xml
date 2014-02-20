@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- menu -->
+    <string name="start_or_stop">首页</string>
+    <string name="set">设置</string>
+    <string name="version">版本</string>
+    <string name="task">任务</string>
+    <string name="my_case">案例</string>
+    <string name="manager">测试管理</string>
+    <!-- 测试管理 -->
+    <string name="search">查询</string>
+    <string name="task_name">任  务  名:</string>
+    <string name="script_name">脚  本  名:</string>
+    <string name="index_name">指  标  名:</string>
+    <string name="test_result">拨测结果:</string>
+    <string name="run_status">处理状态:</string>
+    <string name="business_type">业务类型:</string>
+    <string name="hint_content">请输入搜索关键字</string>
+    <!-- 功能选项 -->
+    <string name="app_name">AspExecService</string>
+    <string name="start">启动测试服务</string>
+    <string name="stop">停止测试服务</string>
+    <string name="man_upload_result">手动上传拨测结果</string>
+    <string name="man_update_script">手动更新脚本</string>
+    <string name="man_update_task">手动更新任务</string>
+    <string name="openingservice">检查正在运行的服务</string>
+    <string name="set_message">设置本机信息</string>
+    <string name="lookover_set_message">查看版本信息</string>
+    <string name="get_set_message">获取设置信息</string>
+    <string name="set_system_parameter">设置系统参数</string>
+    <string name="version_message">最新版本</string>
+    <string name="service_stop">服务已经停止</string>
+    <string name="service_start">服务已经开启</string>
+    <string name="file_option_type">选型：导入、导出</string>
+    <string name="file_option">配置文件操作选项</string>
+    <string name="file_title">配置文件操作</string>
+    <string name="export_file">导出配置文件到SD卡</string>
+    <string name="import_file">导入配置文件到手机</string>
+    <string name="import_localscript">导入本地脚本文件</string>
+    <string name="im_success">导入文件到手机成功</string>
+    <string name="ex_success">导出文件到手机成功，路径为：/sdcard/com.aspire.android.test.execute.xml</string>
+    <string name="sdcarderror">SDCard不存在，或者写保护了</string>
+    <string name="import_nofile_error">/sdcard/com.aspire.android.test.execute.xml不存在</string>
+    <string name="import_error">文件导入失败</string>
+    <string name="export_error">文件导出失败</string>
+    <string name="db_file">导出数据库到SD卡</string>
+    <string name="importdb_file">导入数据库到手机</string>
+    <string name="db_success">导出数据库到手机SD卡成功</string>
+    <string name="db_error">导出数据库到手机SD卡失败</string>
+    <string name="importdb_error">导入数据库到手机失败</string>
+    <string name="importdb_success">导入数据库到手机成功</string>
+    <string name="db_permissions">设置数据库为导出权限</string>
+    <string name="permissionsdb_success">成功设置数据库为导出权限</string>
+    <string name="permissionsdb_err">设置数据库为导出权限失敗了</string>
+    <string name="back">返回</string>
+    <string name="login_page_tip">提示</string>
+    <string name="login_page_tip_message">你确定要退出吗？</string>
+    <string name="login_page_cancel">取消</string>
+    <string name="login_page_tip_sure">确定</string>
+    <string name="official">切换至正式版</string>
+    <string name="test">切换至测试版</string>
+    
+
+    <!-- 设置本机信息 -->
+    <string name="set_phone_num">设置电话号码</string>
+    <string name="set_terminal">设置终端型号</string>
+    <string name="set_IMEI">设置手机IMEI</string>
+    <string name="set_IP">设置手机IP</string>
+    <string name="set_province">设置省份</string>
+    <string name="set_city">设置地市</string>
+    <string name="set_company">设置厂商</string>
+    <string name="set_test_people">设置测试人员</string>
+    <string name="set_devic_name">设备名称</string>
+
+    <!-- 设置系统参数 -->
+    <string name="set_switch">设置连接开关</string>
+    <string name="switch_open">选型：打开 </string>
+    <string name="switch_close">选型：关闭 </string>
+    <string name="set_results_uploads">设置结果上传方式</string>
+    <string name="set_uploads_type">选型：立即上传、定时上传和手工上传</string>
+    <string name="script_queries_user">脚本查询用户名</string>
+    <string name="task_obtain_user">任务获取用户名</string>
+    <string name="upload_time_interval">拨测结果上传间隔（单位：秒）</string>
+    <string name="sms_controal_number">短信控制电话号码</string>
+    <string name="engine_updates_address">测试引擎更新地址</string>
+    <string name="engine_download_time_interval">引擎检查间隔（单位:秒）</string>
+    <string name="Performance_data_collection_frequency">性能数据采集频率</string>
+    <string name="set_save_address">测试数据目录</string>
+    <string name="upload_now">立即上传</string>
+    <string name="uploaded_regularly">定时上传</string>
+    <string name="manually_upload">手工上传</string>
+    <string name="uploads_type">上传方式</string>
+    <string name="data_get_type">获取数据的方式</string>
+    <string name="data_get_type_summary">选型：本地获取和服务器获取</string>
+    <string name="data_get_type_local">本地获取</string>
+    <string name="data_get_type_server">服务器获取</string>
+    <string name="OK">确定</string>
+    <string name="cancer">取消</string>
+    <string name="set_province_confim">请先设置省份</string>
+    <string name="script_queries_password">脚本查询密码</string>
+    <string name="task_obtain_password">任务获取密码</string>
+    <string name="task_download_time">任务下载间隔（单位:秒）</string>
+    <string name="device_time_interval">设备状态上报间隔（单位:秒）</string>
+    <string name="script_download_time">脚本下载间隔（单位:秒）</string>
+
+    <!-- 本地接口设置 -->
+    <string name="local_interface">本地接口设置</string>
+    <string name="local_interface_parent_address">本地接口主目录</string>
+    <string name="task_query_localpath">任务列表文件地址</string>
+    <string name="script_query_localpath">脚本更新查询文件地址</string>
+    <string name="test_script_localpath">脚本文件目录地址</string>
+    <string name="service_key_localpath">业务指标文件地址</string>
+
+    <!-- 拨测接口 -->
+    <string name="set_interface">HTTP接口</string>
+    <string name="set_script">脚本查询地址</string>
+    <string name="terminal_equipment">终端设备注册地址</string>
+    <string name="set_alarm">终端设备告警地址</string>
+    <string name="set_heartbeat">终端设备状态更新地址</string>
+    <string name="get_task">任务获取地址</string>
+    <string name="set_password">密钥更新接口</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+
+    <!-- 设置FTP接口目录 -->
+    <string name="set_ftp_one">版本升级FTP接口</string>
+    <string name="set_ftp_two">业务指标FTP接口</string>
+    <string name="set_ftp_three">拨测脚本FTP接口</string>
+    <string name="set_ftp_four">拨测结果FTP接口</string>
+    <string name="set_ftp_five">设备类型FTP接口</string>
+    <string name="set_service_ip">服务器IP</string>
+    <string name="set_service_port">端口</string>
+    <string name="set_service_path">路径</string>
+    <string name="service_username">用户名</string>
+    <string name="service_password">密码</string>
+    <string name="test_result_upload_interval">上传结果间隔(单位：秒)</string>
+    <string name="test_result_resp_interval">下载响应间隔(单位：秒)</string>
+    <string name="ftp_data_timeout">ftp数据交互超时时间(单位：分)</string>
+
+    <!-- TestService -->
+    <string name="ts_log">记录日志</string>
+    <string name="ts_logscreen">记录屏幕日志</string>
+    <string name="ts_ocrscreen">OCR屏幕</string>
+    <string name="ts_ocrrect">OCR屏幕区域</string>
+    <string name="ts_ocrscreen_match">OCR屏幕匹配</string>
+    <string name="ts_ocrrect_match">OCR屏幕区域匹配</string>
+    <string name="ts_screendown">触屏按下</string>
+    <string name="ts_screenmove">触屏移动</string>
+    <string name="ts_screenup">触屏弹起</string>
+    <string name="ts_screenclick">触屏点击</string>
+    <string name="ts_screentouch">触屏滑动</string>
+    <string name="ts_keyup">按键弹起</string>
+    <string name="ts_keydown">按键按下</string>
+    <string name="ts_keyclick">按键点击</string>
+    <string name="ts_keylongclick">按键长按</string>
+    <string name="ts_verifyscreen">校验屏幕</string>
+    <string name="ts_findinscreen">在屏幕查找图片</string>
+    <string name="ts_findpicture">在大图中找小图</string>
+    <string name="ts_install">安装应用</string>
+    <string name="ts_uninstall">卸载应用</string>
+    <string name="ts_input">输入文字</string>
+    <string name="ts_runapp">启动应用</string>
+    <string name="ts_stopapp">停止应用</string>
+    <string name="ts_sendmessage">发送短信</string>
+    <string name="ts_getmessage">接收短信</string>
+    <string name="ts_wapope">打开网址</string>
+    <string name="ts_savecertificate_ocrscreen">保存OCR屏幕凭证</string>
+    <string name="ts_savecertificate_ocrrect">保存OCR屏幕区域凭证</string>
+    <string name="ts_savecertificate_verify">保存校验屏幕凭证</string>
+    <string name="ts_savecertificate_find">保存在屏幕查找图片凭证</string>
+    <string name="ts_savetransaction">保存事务</string>
+    <string name="ts_deleteallmessage">删除所有短信</string>
+    <string name="ts_setallmessagereaded">将所有短信设为已读</string>
+    <string name="ts_startgrabtcppackage">开始抓TCP包</string>
+    <string name="ts_stopgrabtcppackage">结束抓TCP包</string>
+    <string name="ts_findwidget">查找控件</string>
+    <string name="ts_countwidget">查找控件个数</string>
+    <string name="ts_clickwidget">查找控件,点击控件</string>
+    <string name="ts_getwidgettext">查找控件,返回控件mText属性</string>
+    <string name="ts_findwebwidget">查web找控件</string>
+    <string name="ts_countwebwidget">查找web控件个数</string>
+    <string name="ts_getwebwidgettext">查找web控件,返回控件mText属性</string>
+    <string name="ts_clickwebwidget">查找web控件,点击控件</string>
+    <string name="ts_wapclose">关闭浏览器</string>
+    <string name="ts_ocrwithresource">根据OCR的配置进行校验</string>
+    <string name="ts_alarm">告警</string>
+    <string name="ts_findandclick">在屏幕查找图片,找到后点击</string>
+    <string name="ts_deletefile">删除文件</string>
+    <string name="ts_getfilesize">获取文件大小</string>
+    <string name="ts_screenmutildown">多点触摸按下</string>
+    <string name="ts_screenmutilmove">多点触摸移动</string>
+    <string name="ts_screenmutilup">多点触摸弹起</string>
+    <string name="ts_screenzoom">多点触摸放大</string>
+    <string name="ts_screenshrink">多点触摸缩小</string>
+    <string name="ts_savescreen">保存屏幕截图</string>
+    <string name="ts_saveimagetocertificate">保存文件到凭证</string>
+    <string name="ts_deleteInput">删除输入文字</string>
+    <string name="_">版权所有 卓望集团</string>
+    <string name="verify">确认结果查询:</string>
+
+</resources>

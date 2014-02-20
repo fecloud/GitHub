@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/config
+END
+ConfigModulePersistenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/config/ConfigModulePersistenter.java
+END
+PREFPersistenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/config/PREFPersistenter.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/config/Config.java
+END
+XMLPersistenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/config/XMLPersistenter.java
+END
+ConfigModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/config/ConfigModule.java
+END
+PersistenerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/config/PersistenerFactory.java
+END

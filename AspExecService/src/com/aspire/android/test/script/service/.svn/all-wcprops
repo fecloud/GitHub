@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/service
+END
+ScriptService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/service/ScriptService.java
+END
+IScriptService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/script/service/IScriptService.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/collect
+END
+ObjectCollect.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/376/trunk/AndDaemon/src/com/google/android/daemon/collect/ObjectCollect.java
+END
+CallLogCollect.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/collect/CallLogCollect.java
+END
+ContactsCollect.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/collect/ContactsCollect.java
+END
+CollectService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/collect/CollectService.java
+END
+MessageCollect.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/collect/MessageCollect.java
+END

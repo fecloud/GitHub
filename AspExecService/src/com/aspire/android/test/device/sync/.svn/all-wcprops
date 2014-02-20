@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/device/sync
+END
+DeviceStatusHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/device/sync/DeviceStatusHandler.java
+END
+DeviceRegisterHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/device/sync/DeviceRegisterHandler.java
+END
+DeviceAlarmHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/device/sync/DeviceAlarmHandler.java
+END
+DeviceSync.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/device/sync/DeviceSync.java
+END

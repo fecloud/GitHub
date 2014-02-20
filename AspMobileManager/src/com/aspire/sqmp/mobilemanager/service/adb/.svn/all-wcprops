@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/adb
+END
+CmdExecute.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/adb/CmdExecute.java
+END
+AdbHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/adb/AdbHelper.java
+END
+DeviceAdbState.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/adb/DeviceAdbState.java
+END

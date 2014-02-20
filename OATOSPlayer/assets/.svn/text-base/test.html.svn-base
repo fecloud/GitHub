@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于</title>
+</head>
+<script type="text/javascript" src="jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="rytNXDdMmiI9UxyjCqNvHK67C8N/r5IpvvQIJA==";</script>
+<body>
+
+<h1>OATOS服务条款</h1>
+
+<div id="myElement">Loading the player...</div>
+
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        file: "/uploads/myVideo.mp4",
+        image: "android.png"
+    });
+</script>
+
+</body>
+</html>

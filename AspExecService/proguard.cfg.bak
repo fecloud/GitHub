@@ -1,0 +1,125 @@
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontshrink
+#-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+
+
+-keep class com.aspire.android.test.task.service.TaskService {
+	*;
+}
+
+-keep class com.aspire.android.test.servicekey.service.ServiceKeyService {
+	*;
+}
+
+-keep class com.aspire.android.test.script.service.ScriptService {
+	*;
+}
+
+-keep class com.aspire.android.test.sync.SyncService {
+	*;
+}
+-keep class com.aspire.android.test.task.service.ClearDbService {
+	*;
+}
+
+-keep class * extends com.aspire.android.common.db.IBaseDao {
+	*;
+}
+-keep class * extends com.aspire.android.common.db.IBaseDao {
+	*;
+}
+-keep class * extends android.database.sqlite.SQLiteOpenHelper {
+	*;
+}
+-keep public class com.android.vending.licensing.ILicensingService {
+	*;
+}
+
+#保存google aop
+-keep public class com.aspire.android.test.ExecuteServiceModule
+#因为记录日志用的反射也不能被混淆改名
+-keep class * extends com.aspire.android.log.appender.LogAppender
+-keep class * extends com.aspire.android.log.layout.LogLayout
+
+
+
+
+
+#保留哪些class不被混淆改名
+-keep class  com.google.inject.**{
+	*;
+}
+-keep class  com.j256.ormlite.**{
+	*;
+}
+-keep class  org.apache.commons.**{
+	*;
+}
+-keep class  roboguice.**{
+	*;
+}
+-keep class  org.aopalliance.**{
+	*;
+}
+-keep class  com.esotericsoftware.**{
+	*;
+}
+-keep class  org.objectweb.asm.**{
+	*;
+}
+-keep class  org.objenesis.**{
+	*;
+}
+-keep class  com.thoughtworks.xstream.**{
+	*;
+}
+-keep class  javax.inject.**{
+	*;
+}
+
+
+
+-keepattributes *Annotation*
+
+
+
+-dontwarn com.thoughtworks.xstream.**
+-dontwarn com.esotericsoftware.**
+-dontwarn roboguice.**
+-dontwarn org.objenesis.**
+-dontwarn com.google.inject.**
+
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}

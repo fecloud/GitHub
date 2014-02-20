@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/codec
+END
+MobileConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/codec/MobileConstants.java
+END
+MobileMsgCodec.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/codec/MobileMsgCodec.java
+END
+MobileMsgCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/codec/MobileMsgCreator.java
+END

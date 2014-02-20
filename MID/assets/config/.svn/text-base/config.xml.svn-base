@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<module name="System" type="1" persistence="config/config_sys.xml" />
+<module name="Device" type="2" persistence="com.aspire.mose.device" />
+</config>

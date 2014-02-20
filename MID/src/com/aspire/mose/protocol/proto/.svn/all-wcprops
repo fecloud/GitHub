@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto
+END
+MsgConnectionHeartbeatDetectionResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/MsgConnectionHeartbeatDetectionResponse.java
+END
+MsgTransHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/MsgTransHeader.java
+END
+MsgConnectionHeartbeatDetectionRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/proto/MsgConnectionHeartbeatDetectionRequest.java
+END

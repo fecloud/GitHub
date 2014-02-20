@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/345/trunk/UARE/Agent/assets
+END
+libagentjnifb.so
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/libagentjnifb.so
+END
+libmyjpeg.so
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/libmyjpeg.so
+END
+AgentConfig
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/AgentConfig
+END
+libagentjnitouch.so
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/libagentjnitouch.so
+END
+libagentjni22.so
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/libagentjni22.so
+END
+libagentjni23.so
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/libagentjni23.so
+END
+startAgent
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/startAgent
+END
+agentdaemon.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/345/trunk/UARE/Agent/assets/agentdaemon.jar
+END

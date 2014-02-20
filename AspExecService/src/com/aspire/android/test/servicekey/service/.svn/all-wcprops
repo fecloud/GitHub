@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/servicekey/service
+END
+ServiceKeyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/servicekey/service/ServiceKeyService.java
+END
+IServiceKeyService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/servicekey/service/IServiceKeyService.java
+END

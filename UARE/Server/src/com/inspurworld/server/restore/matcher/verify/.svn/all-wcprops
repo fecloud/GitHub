@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/282/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/verify
+END
+VerifyMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/267/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/verify/VerifyMatch.java
+END
+VerifyResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/255/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/verify/VerifyResult.java
+END
+VerifyParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/267/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/verify/VerifyParam.java
+END
+VerifyParamLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/282/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/verify/VerifyParamLoader.java
+END

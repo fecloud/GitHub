@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/286/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/ocr
+END
+OCRParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/286/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/ocr/OCRParam.java
+END
+OCRParamLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/286/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/ocr/OCRParamLoader.java
+END
+OCRMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/286/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/ocr/OCRMatch.java
+END
+OCRResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/269/trunk/UARE/Server/src/com/inspurworld/server/restore/matcher/ocr/OCRResult.java
+END

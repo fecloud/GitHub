@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidDaemon</string>
+    <string name="desc">android system daemon</string>
+
+</resources>

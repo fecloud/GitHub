@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo
+END
+custom_rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/custom_rules.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/.project
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/local.properties
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/proguard-project.txt
+END
+aspire-android-test-release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/aspire-android-test-release-key.keystore
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/AndroidManifest.xml
+END
+case.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/case.xml
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/ReadMe.txt
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/ant.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/build.xml
+END
+cp_attachment.bat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/cp_attachment.bat
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/387/trunk/AspAndroidCaseDemo/project.properties
+END

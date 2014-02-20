@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/Logging/src/com/aspire/android/log/layout
+END
+LogLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/13/trunk/Logging/src/com/aspire/android/log/layout/LogLayout.java
+END
+TextLogLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/Logging/src/com/aspire/android/log/layout/TextLogLayout.java
+END
+HTMLLogLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/Logging/src/com/aspire/android/log/layout/HTMLLogLayout.java
+END

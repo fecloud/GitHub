@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/300/trunk/UARE/Server/src/com/inspurworld/server
+END
+RunMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/291/trunk/UARE/Server/src/com/inspurworld/server/RunMain.java
+END
+MainServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/237/trunk/UARE/Server/src/com/inspurworld/server/MainServer.java
+END
+AccpetServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/298/trunk/UARE/Server/src/com/inspurworld/server/AccpetServer.java
+END
+OnClinentConn.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/126/trunk/UARE/Server/src/com/inspurworld/server/OnClinentConn.java
+END

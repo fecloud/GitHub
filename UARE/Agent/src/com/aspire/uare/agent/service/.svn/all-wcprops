@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/service
+END
+AgentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/service/AgentService.java
+END
+RemoteAgentService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/service/RemoteAgentService.aidl
+END
+DaemonManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/service/DaemonManager.java
+END

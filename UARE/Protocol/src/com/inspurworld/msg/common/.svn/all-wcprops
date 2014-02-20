@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/205/trunk/UARE/Protocol/src/com/inspurworld/msg/common
+END
+GrabImageResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/139/trunk/UARE/Protocol/src/com/inspurworld/msg/common/GrabImageResponse.java
+END
+ConnectionResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/205/trunk/UARE/Protocol/src/com/inspurworld/msg/common/ConnectionResponse.java
+END
+ImageUpLoadRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/181/trunk/UARE/Protocol/src/com/inspurworld/msg/common/ImageUpLoadRequest.java
+END
+ImageUpLoadRespone.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/196/trunk/UARE/Protocol/src/com/inspurworld/msg/common/ImageUpLoadRespone.java
+END
+CommonResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/139/trunk/UARE/Protocol/src/com/inspurworld/msg/common/CommonResponse.java
+END
+GrabImageRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/139/trunk/UARE/Protocol/src/com/inspurworld/msg/common/GrabImageRequest.java
+END
+ConnectionRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/198/trunk/UARE/Protocol/src/com/inspurworld/msg/common/ConnectionRequest.java
+END

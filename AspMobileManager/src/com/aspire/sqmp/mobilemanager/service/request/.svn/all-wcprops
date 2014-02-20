@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request
+END
+GStoreInfoReqeust.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GStoreInfoReqeust.java
+END
+AspMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/AspMessage.java
+END
+GCaseRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GCaseRequest.java
+END
+AspRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/AspRequest.java
+END
+GSettingRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GSettingRequest.java
+END
+GResultRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GResultRequest.java
+END
+STaskRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/STaskRequest.java
+END
+SPasswordRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SPasswordRequest.java
+END
+GStoreInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GStoreInfoResponse.java
+END
+GCaseResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GCaseResponse.java
+END
+AspResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/AspResponse.java
+END
+GSettingResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GSettingResponse.java
+END
+SuccessRespond.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SuccessRespond.java
+END
+STaskResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/STaskResponse.java
+END
+SPasswordResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SPasswordResponse.java
+END
+GResultResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/GResultResponse.java
+END
+SServicekeyRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SServicekeyRequest.java
+END
+SCaseRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SCaseRequest.java
+END
+SSettingRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SSettingRequest.java
+END
+IMessageHandle.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/IMessageHandle.java
+END
+RegisterClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/RegisterClass.java
+END
+SServicekeyResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SServicekeyResponse.java
+END
+SCaseResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SCaseResponse.java
+END
+SSettingResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/SSettingResponse.java
+END
+AspCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/AspCommand.java
+END
+ErrorRespond.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/request/ErrorRespond.java
+END

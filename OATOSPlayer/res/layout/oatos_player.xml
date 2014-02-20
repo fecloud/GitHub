@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.oatos.m.android.widget.OATOSPlayerView
+            android:id="@+id/playerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/music_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/music_icon"
+            android:visibility="gone" />
+
+        <include layout="@layout/oatos_player_loading" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play_the_top_bar" >
+    </LinearLayout>
+
+    <com.oatos.m.android.widget.MenuBar
+        android:id="@+id/rightTools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/buttom_bar_bottom"
+        android:orientation="vertical" />
+
+    <include layout="@layout/oatos_player_controller" />
+
+</RelativeLayout>

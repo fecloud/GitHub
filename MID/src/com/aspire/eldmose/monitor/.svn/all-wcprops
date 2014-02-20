@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor
+END
+PushType.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/PushType.java
+END
+MsisdnNotify.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/MsisdnNotify.java
+END
+PushObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/PushObject.java
+END
+PushFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/PushFactory.java
+END
+SubStatusChangedPush.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/SubStatusChangedPush.java
+END
+ForceLogout.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/ForceLogout.java
+END
+ContentPush.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/ContentPush.java
+END
+SmsWarn.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/SmsWarn.java
+END
+PushMsgReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/PushMsgReceiver.java
+END
+BindPush.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/monitor/BindPush.java
+END

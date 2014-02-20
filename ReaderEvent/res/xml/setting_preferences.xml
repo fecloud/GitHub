@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="parent"
+    android:title="@string/setting_title" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="boot"
+        android:summary="@string/yes_string"
+        android:title="@string/boot" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="running_back"
+        android:summary="@string/yes_string"
+        android:title="@string/running_back" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="join_survey"
+        android:summary="@string/yes_string"
+        android:title="@string/join_survey" />
+
+    <EditTextPreference
+        android:defaultValue="70"
+        android:key="image_space"
+        android:numeric="integer"
+        android:singleLine="true"
+        android:summary="70"
+        android:title="@string/image_space" />
+    <EditTextPreference
+        android:defaultValue="1"
+        android:key="screencap_frequency"
+        android:numeric="integer"
+        android:singleLine="true"
+        android:summary="1"
+        android:title="@string/screencap_frequency" />
+
+</PreferenceScreen>

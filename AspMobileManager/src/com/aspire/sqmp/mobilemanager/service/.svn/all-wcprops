@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service
+END
+SyncService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/SyncService.java
+END
+PropertyManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/PropertyManager.java
+END
+DevicesPortManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/DevicesPortManager.java
+END
+ISyncService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/ISyncService.java
+END
+DefaultRemoteDeviceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/DefaultRemoteDeviceListener.java
+END
+RemoteDeviceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/RemoteDeviceManager.java
+END
+DeviceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/DeviceManager.java
+END
+RemoteDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/386/trunk/AspMobileManager/src/com/aspire/sqmp/mobilemanager/service/RemoteDevice.java
+END

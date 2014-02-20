@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/393/trunk/SyTask/src/com/braver
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/393/trunk/SyTask/src/com/braver/Task.java
+END
+TaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/393/trunk/SyTask/src/com/braver/TaskService.java
+END
+TaskContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/393/trunk/SyTask/src/com/braver/TaskContainer.java
+END
+EatBread.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/393/trunk/SyTask/src/com/braver/EatBread.java
+END
+TaskExecuteable.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/393/trunk/SyTask/src/com/braver/TaskExecuteable.java
+END
+EatBreadExecuteable.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/393/trunk/SyTask/src/com/braver/EatBreadExecuteable.java
+END

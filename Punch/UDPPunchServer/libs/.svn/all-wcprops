@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/418/trunk/Punch/UDPPunchServer/libs
+END
+log4j-1.2.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/416/trunk/Punch/UDPPunchServer/libs/log4j-1.2.17.jar
+END
+protobuf-lite-java-2.5.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/418/trunk/Punch/UDPPunchServer/libs/protobuf-lite-java-2.5.0.jar
+END

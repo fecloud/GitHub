@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name" >消息推送</string>
+	<string name="startService" >启动服务</string>
+	<string name="stopService" >停止服务</string>
+</resources>
+

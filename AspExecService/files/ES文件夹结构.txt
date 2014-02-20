@@ -1,0 +1,23 @@
+配置的主目录下
+|
+|——backup此文件夹用于保存业务指标、任务、脚本、拨测结果的备份文件
+|
+|——es_run_log保存es的整个软件的运行日志
+|
+|——local  用于手机设置连接关闭时通过pc来更新脚本、任务，上传结果
+	|
+	|——task     pc端发过来的任务文件夹
+	|
+	|——test_script pc端发过来的脚本文件夹
+	|
+	|——test_result 本地生成的结果，放在此文件夹下 upload下日期文件夹下
+|
+|——local_script用于存储本地导入脚本功能的xml和zip文件
+|
+|——runlogs任务的运行日志
+|
+|——service_key 存储业务指标
+|
+|——test_result 保存拨测结果的文件夹
+|
+|——test_script 下载下来的脚本

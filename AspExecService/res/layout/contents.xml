@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/contents_title1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="任务基本信息"
+            android:textColor="@color/red"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contents_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contents_title1"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/red"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/contents_title2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contents_text"
+            android:gravity="left"
+            android:text="执行计划"
+            android:textColor="@color/red"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contents_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contents_title2"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/red"
+            android:textStyle="normal" />
+
+        <!-- <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/contents_text2"
+            android:text="@string/back" /> -->
+
+        <Button
+            android:id="@+id/index_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contents_text2"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="查看该任务下指标详情" />
+    </RelativeLayout>
+
+</ScrollView>

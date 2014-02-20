@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/113/trunk/Logging/src/com/aspire/android/log/appender
+END
+FileLogAppender.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/113/trunk/Logging/src/com/aspire/android/log/appender/FileLogAppender.java
+END
+LogAppender.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/65/trunk/Logging/src/com/aspire/android/log/appender/LogAppender.java
+END
+ConsoleLogAppender.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/28/trunk/Logging/src/com/aspire/android/log/appender/ConsoleLogAppender.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test
+END
+OphoneNetWork.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/OphoneNetWork.java
+END
+DBConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/DBConstants.java
+END
+TestDatabaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/TestDatabaseHelper.java
+END
+ExecuteServiceModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/ExecuteServiceModule.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/Constants.java
+END
+PreferencesManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/PreferencesManager.java
+END

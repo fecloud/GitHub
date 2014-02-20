@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/411/trunk/AndroidCapture
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/402/trunk/AndroidCapture/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/411/trunk/AndroidCapture/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/402/trunk/AndroidCapture/.project
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/397/trunk/AndroidCapture/local.properties
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/397/trunk/AndroidCapture/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/411/trunk/AndroidCapture/AndroidManifest.xml
+END
+release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/397/trunk/AndroidCapture/release-key.keystore
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/397/trunk/AndroidCapture/ant.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/411/trunk/AndroidCapture/build.xml
+END

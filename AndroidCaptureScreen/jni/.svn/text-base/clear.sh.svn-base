@@ -1,0 +1,1 @@
+rm -rf /home/nan/android2.3/out/target/product/generic/obj/SHARED_LIBRARIES/libscreencapture23_intermediates

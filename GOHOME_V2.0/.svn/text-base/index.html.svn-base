@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>火车票Web抢票系统 By 丰丰 V2.13 release</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+		body{
+			background-color:#000000;
+			padding :0px;
+			margin: 0px; 
+		}
+
+        input#chat {
+			height: 25px;
+			border: 1px solid #000000;
+			background-color:#000000;
+			color:red;
+			width:99%;
+			outline:none;
+        }
+
+		#input {
+			width: 100%;
+			height: auto;
+		}
+
+        #console {
+           /* border: 1px solid #CCCCCC;
+            border-right-color: #999999;
+            border-bottom-color: #999999;
+			*/
+            height: 500px;
+            overflow-y: auto;
+            padding: 5px;
+			color:red;
+			font-size: 10pt;
+        }
+    </style>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+	
+		var Chat = {};
+		
+		var winf = true;
+		var loops = true;
+		var notification;
+
+        Chat.socket = null;
+		
+		function completePasscode(event){
+			var message = $.trim($('#chat').val());
+			if(message.length == 4){
+				return true;
+			}else {
+				return false;
+			}
+		}
+		
+		function passCodeNormalListener(event){
+			if (completePasscode()) {
+                Chat.sendMessage();
+				var chat_c = $('#chat');
+				chat_c.unbind('keyup');
+            }
+		}
+		
+		function chatNormalListener(event){
+			if (event.keyCode == 13) {
+                Chat.sendMessage();
+            }
+		}
+	
+		//获取QueryString的数组 
+		function getQueryString(){ 
+			//var result = .match(new RegExp("[\?\&][^\?\&]+=[^\?\&]+","g"));
+			//for(var i = 0; i < result.length; i++){ 
+			//	result[i] = result[i].substring(1); 
+			//} 
+			var args = location.search;
+			if('' != args){
+				args = args.substring(1);
+			}
+			return args; 
+		} 
+	
+        
+
+        Chat.connect = (function(host) {
+            if ('WebSocket' in window) {
+                Chat.socket = new WebSocket(host);
+            } else if ('MozWebSocket' in window) {
+                Chat.socket = new MozWebSocket(host);
+            } else {
+                Console.log('Error: WebSocket is not supported by this browser.');
+                return;
+            }
+
+            Chat.socket.onopen = function () {
+                Console.log('<span style=color:#FFFFFF>连接服务器成功<br /></span>');
+                var chat = $('#chat');
+				chat.bind('keydown',chatNormalListener);
+            };
+
+            Chat.socket.onclose = function () {
+                document.getElementById('chat').onkeydown = null;
+                Console.log('<span style=color:#FFFFFF>断开连接<br /></span>');
+            };
+
+            Chat.socket.onmessage = function (message) {
+				var jsonobj = eval('('+ message.data +')'); ;
+				if(jsonobj.type =='type_general'){
+					Console.log(jsonobj.content);
+					
+				}else if(jsonobj.type == 'type_input_pass_code'){
+					if(jsonobj.content== '2' && !winf){
+						loops = true;
+						soundloop();
+					}
+					var c = $('#chat');
+					c.bind('keyup',passCodeNormalListener);
+				}
+            };
+        });
+
+        Chat.initialize = function() {
+            if (window.location.protocol == 'http:') {
+               Chat.connect('ws://' + window.location.host + '/gohome/gohomeweb?args=' + getQueryString());
+            } else {
+               Chat.connect('wss://' + window.location.host + '/gohome/gohomeweb?args=' + getQueryString());
+            }
+        };
+
+        Chat.sendMessage = (function() {
+            var message = $('#chat').val();
+            //if (message != '') {
+                Chat.socket.send(message);
+                document.getElementById('chat').value = '';
+            //}
+
+        });
+
+        var Console = {};
+
+        Console.log = (function(message) {
+            var console = document.getElementById('console');
+            var p = document.createElement('span');
+            p.style.wordWrap = 'break-word';
+            p.innerHTML = message;
+           $("#input").before(p);
+            while (console.childNodes.length > 500) {
+                console.removeChild(console.firstChild);
+            }
+            console.scrollTop = console.scrollHeight;
+        });
+
+        Chat.initialize();
+		
+		$(document).ready(function(){
+			$('#chat').focus();
+			$(window).resize(function(){
+				$('#console').height($(window).height() -10);
+			});
+			$('#console').height($(window).height() -10);
+			$('#console').bind('click',function (){
+				checkWebNotify();
+			});
+		});
+		
+		$(window).blur(function(){
+			winf = false;
+		});
+		
+		$(window).focus(function(){
+			winf = true;
+			$('#chat').focus();
+			loops = false;
+			colosesound();
+		});
+		
+		
+		function soundloop(){
+		
+			colosesound();
+			if(notification){
+				notification.cancel();
+			}
+			if(loops){
+				notification = window.webkitNotifications.createNotification('1.jpg', '操作提示', '有票啦!请填写验证码!!');
+				notification.show();
+				opensound();
+				setTimeout("soundloop()", 8000);
+			}
+			
+		}
+
+		function opensound(){
+			 var s = document.createElement('embed');
+			 s.id = "marimba";
+			 s.width = 0;
+			 s.height = 0;
+			 s.src = "marimba.mp3"
+			$('#console').after(s);
+		}
+
+		function colosesound(){
+			$('#marimba').remove();
+		}
+		
+		function checkWebNotify(){
+			//检查浏览器是否支持通知
+			if (window.webkitNotifications) {
+				if (window.webkitNotifications.checkPermission() != 0) {
+					Console.log("请求打开桌面通知!<br />");
+					window.webkitNotifications.requestPermission();
+				}else {
+					Console.log("打开桌面通知成功!<br />");
+					$('#console').unbind('click');
+					$('#console').bind('click',function(){
+						$('#chat').focus();
+					});
+				}
+			}
+		}
+		
+    </script>
+</head>
+<body>
+
+<noscript>
+	<h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websockets rely on Javascript being enabled. Please enable Javascript and reload this page!</h2>
+</noscript>
+<div id="console">
+	<div id="input">
+		<input type="text" id="chat">
+	</div>
+</div>
+</body>
+</html>

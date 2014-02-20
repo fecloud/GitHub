@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aspire.android.test.execute"
+    android:versionCode="5"
+    android:versionName="1.0.8" >
+
+    <uses-sdk android:minSdkVersion="3" />
+	
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.aspire.android.test.execute" >
+    </instrumentation>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 接收短信权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- 关闭应用程序的权限 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" >
+    </supports-screens>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.aspire.android.test.application.ExecApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.PrefsActivity" />
+        <activity android:name=".ui.OperationsActivity" />
+        <activity android:name=".ui.TaskActivity" />
+        <activity android:name=".ui.VersionActivity" />
+        <activity android:name=".ui.CaseActivity" />
+        <activity android:name=".ui.TaskExecutionActivity" />
+        <activity android:name=".ui.TaskIndexActivity" />
+        <activity android:name=".ui.TaskGroupActivity" />
+        <activity
+            android:name=".ui.TaskSearch"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.BusinessIndexSearch"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.ScriptSerach"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ui.ResultSearch"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".ui.ManagerMenu" />
+        <activity android:name=".ui.SearchContents" />
+        <activity android:name=".ui.IndexList" />
+        <activity
+            android:name=".ui.VerifySearch"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service android:name=".ExecuteService" >
+            <intent-filter>
+                <action android:name="com.aspire.android.test.execute.ExecuteService" />
+            </intent-filter>
+        </service>
+        <service android:name=".RestartService" >
+            <intent-filter>
+                <action android:name="com.aspire.android.test.execute.RestartService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".TestService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.aspire.android.test.execute.TestService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".SmsReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <!-- 单元测试 -->
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Tests for My App"
+        android:targetPackage="com.aspire.android.test.execute" />
+
+</manifest>

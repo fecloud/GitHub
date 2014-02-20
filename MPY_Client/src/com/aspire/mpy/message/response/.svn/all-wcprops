@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response
+END
+LoginNameCardResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/LoginNameCardResp.java
+END
+IResponseMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/IResponseMsg.java
+END
+JsonResponseMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/JsonResponseMsg.java
+END
+GetNameCardListResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/GetNameCardListResp.java
+END
+FileRespMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/FileRespMsg.java
+END
+BindNameCardResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/BindNameCardResp.java
+END
+TradeJsonResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/TradeJsonResp.java
+END
+GetNameCardResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/GetNameCardResp.java
+END
+TradeNameCardResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/TradeNameCardResp.java
+END
+XmlResponseMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/XmlResponseMsg.java
+END
+CreateNameCardResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/CreateNameCardResp.java
+END
+UploadPhotoResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/UploadPhotoResp.java
+END
+DownloadPhotoResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/DownloadPhotoResp.java
+END
+ModifyNameCardResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/response/ModifyNameCardResp.java
+END

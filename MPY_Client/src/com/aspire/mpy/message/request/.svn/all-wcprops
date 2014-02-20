@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request
+END
+ModifyNameCardReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/ModifyNameCardReq.java
+END
+LoginNameCardReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/LoginNameCardReq.java
+END
+MessageHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/MessageHeader.java
+END
+GetNameCardListReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/GetNameCardListReq.java
+END
+FileRequestMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/FileRequestMsg.java
+END
+BindNameCardReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/BindNameCardReq.java
+END
+XmlRequestMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/XmlRequestMsg.java
+END
+TradeNameCardReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/TradeNameCardReq.java
+END
+GetNameCardReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/GetNameCardReq.java
+END
+CreateNameCardReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/CreateNameCardReq.java
+END
+UploadPhotoReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/UploadPhotoReq.java
+END
+IRequestMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/IRequestMsg.java
+END
+DownloadPhotoReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/DownloadPhotoReq.java
+END
+JsonRequestMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/MPY_Client/src/com/aspire/mpy/message/request/JsonRequestMsg.java
+END

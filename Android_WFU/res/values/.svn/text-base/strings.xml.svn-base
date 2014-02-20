@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">无线文件传输</string>
+
+    <string name="wating">等待传输</string>
+    <string name="wifi_wating">等待打开WIFI</string>
+    
+</resources>

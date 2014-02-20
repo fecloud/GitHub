@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/507/trunk/GOHOME_V2.0/src/com/braver/gohome/task/service
+END
+TaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/507/trunk/GOHOME_V2.0/src/com/braver/gohome/task/service/TaskService.java
+END
+SingleThreadTaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/507/trunk/GOHOME_V2.0/src/com/braver/gohome/task/service/SingleThreadTaskService.java
+END

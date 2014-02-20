@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon
+END
+DateTimeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/376/trunk/AndDaemon/src/com/google/android/daemon/DateTimeUtil.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/Util.java
+END
+App.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/376/trunk/AndDaemon/src/com/google/android/daemon/App.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/Log.java
+END
+Daemon.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/376/trunk/AndDaemon/src/com/google/android/daemon/Daemon.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/379/trunk/AndDaemon/src/com/google/android/daemon/Main.java
+END
+Const.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/376/trunk/AndDaemon/src/com/google/android/daemon/Const.java
+END

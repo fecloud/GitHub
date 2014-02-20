@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/473/trunk/Android_WFU/src/com/braver/android/wfupload/http/server
+END
+WFUploadServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/465/trunk/Android_WFU/src/com/braver/android/wfupload/http/server/WFUploadServer.java
+END
+WFUploadHttpHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/473/trunk/Android_WFU/src/com/braver/android/wfupload/http/server/WFUploadHttpHandler.java
+END
+WFUploadHttp.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/465/trunk/Android_WFU/src/com/braver/android/wfupload/http/server/WFUploadHttp.java
+END
+WFUTempFileManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/465/trunk/Android_WFU/src/com/braver/android/wfupload/http/server/WFUTempFileManager.java
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao
+END
+TaskItemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/TaskItemDao.java
+END
+TaskDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/TaskDao.java
+END
+TaskItemBatchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/TaskItemBatchDao.java
+END
+UploadDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/UploadDao.java
+END
+TaskBatchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/TaskBatchDao.java
+END
+ITaskItemDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/ITaskItemDao.java
+END
+ITaskDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/ITaskDao.java
+END
+ITaskItemBatchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/ITaskItemBatchDao.java
+END
+ITaskBatchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/ITaskBatchDao.java
+END
+IUploadDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/dao/IUploadDao.java
+END

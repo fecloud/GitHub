@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigModule name="System">
+  <debugmode>true</debugmode>
+  <mac>00-1F-3C-1A-06-9F</mac>
+  <version>1.0.0.1</version>
+  <mosp debug="false">
+   <publicKey>30819D300D06092A864886F70D010101050003818B00308187028181009A05BF7854601DC5560EBE704DB52658BCECE3C0CB030A8808A24877AF563C5AEA70478556C6FEBD6144EB48A535610E78DC8F9174B145D16F063EB46A9461AB6C1378F19A1FDBA4E2F5F9D39239F2C9501981DF34015F6BCAC9DD99339DD3D8E5E02E9ECED2C6EF35617259E95CC078B9396148842FBCB6824707991B281A19020111</publicKey>
+
+<!--  现网测试环境 
+ 
+   <address>221.179.9.154</address>
+   <port>18085</port>  -->
+    
+  
+<!--  外网测试环境   -->
+<!-- -->
+   <address>211.139.191.155</address>
+   <port>18085</port>
+
+<!--  内网测试环境-->
+<!-- 
+  <address>10.1.4.51</address>
+   <port>20030</port>
+--> 
+   <time-out>10</time-out>
+   <heart-beat-interval>300</heart-beat-interval>
+  </mosp>
+  <db>
+   <name>MOSE_DB</name>
+   <version>1</version>
+  </db>
+</ConfigModule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cases>
+    <case name="com.aspire.android.test.demo.Case1">
+        <testkeycodes>
+			<servicecode>700</servicecode> 
+			<testkeycode>700001</testkeycode> 
+		</testkeycodes>
+		<testkeycodes>
+			<servicecode>700</servicecode> 
+			<testkeycode>700005</testkeycode> 
+		</testkeycodes>
+  
+	</case>
+	<case name="com.aspire.android.test.demo.Case2">
+		<testkeycodes>
+			<servicecode>700</servicecode> 
+			<testkeycode>700006</testkeycode> 
+		</testkeycodes>
+	</case>
+	
+	<case name="com.aspire.android.test.demo.Case3">
+		<testkeycodes>
+			<servicecode>700</servicecode> 
+			<testkeycode>700007</testkeycode> 
+		</testkeycodes>
+	</case>
+</cases>

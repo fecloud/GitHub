@@ -1,0 +1,18 @@
+/**
+ * @(#) GetIp.java Created on 2012-8-14
+ *
+ * Copyright (c) 2012 Aspire. All Rights Reserved
+ */
+package com.braver.ip.request;
+
+/**
+ * The class <code>GetIp</code>
+ * 
+ * @author ouyangfeng
+ * @version 1.0
+ */
+public interface GetIP {
+
+    public String getIP() throws Exception;
+
+}

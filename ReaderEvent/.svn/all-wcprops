@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/382/trunk/ReaderEvent
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/382/trunk/ReaderEvent/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/382/trunk/ReaderEvent/.project
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/382/trunk/ReaderEvent/local.properties
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/382/trunk/ReaderEvent/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/382/trunk/ReaderEvent/AndroidManifest.xml
+END
+release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/382/trunk/ReaderEvent/release-key.keystore
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/382/trunk/ReaderEvent/ant.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/382/trunk/ReaderEvent/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/382/trunk/ReaderEvent/.classpath
+END

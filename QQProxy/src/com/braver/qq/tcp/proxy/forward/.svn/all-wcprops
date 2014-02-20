@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/427/trunk/QQProxy/src/com/braver/qq/tcp/proxy/forward
+END
+LocalForward.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/427/trunk/QQProxy/src/com/braver/qq/tcp/proxy/forward/LocalForward.java
+END
+TCPProxyForward.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/427/trunk/QQProxy/src/com/braver/qq/tcp/proxy/forward/TCPProxyForward.java
+END
+InternetForward.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/427/trunk/QQProxy/src/com/braver/qq/tcp/proxy/forward/InternetForward.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity
+END
+HttpInterfaceProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/HttpInterfaceProperties.java
+END
+ExecuteSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/ExecuteSet.java
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/Settings.java
+END
+SystemProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/SystemProperties.java
+END
+FtpInterfacePropertiesList.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/FtpInterfacePropertiesList.java
+END
+MobileProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/MobileProperties.java
+END
+Province.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/Province.java
+END
+FtpInterfaceProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/FtpInterfaceProperties.java
+END
+City.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/entity/City.java
+END

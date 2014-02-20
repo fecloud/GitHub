@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/504/trunk/MCU/Atmega16A/AVR/src
+END
+buzzer.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/498/trunk/MCU/Atmega16A/AVR/src/buzzer.c
+END
+execute.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/499/trunk/MCU/Atmega16A/AVR/src/execute.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/504/trunk/MCU/Atmega16A/AVR/src/main.c
+END
+led.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/496/trunk/MCU/Atmega16A/AVR/src/led.c
+END
+interrupt_uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/496/trunk/MCU/Atmega16A/AVR/src/interrupt_uart.c
+END
+uart.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/504/trunk/MCU/Atmega16A/AVR/src/uart.c
+END

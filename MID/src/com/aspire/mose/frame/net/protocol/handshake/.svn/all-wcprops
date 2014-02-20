@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake
+END
+IHKInputListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake/IHKInputListener.java
+END
+IHandShakeProtocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/frame/net/protocol/handshake/IHandShakeProtocol.java
+END

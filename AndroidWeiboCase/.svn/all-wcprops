@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/45/trunk/AndroidWeiboCase
+END
+custom_rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/45/trunk/AndroidWeiboCase/custom_rules.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/44/trunk/AndroidWeiboCase/.project
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/45/trunk/AndroidWeiboCase/local.properties
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/45/trunk/AndroidWeiboCase/proguard-project.txt
+END
+lint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/45/trunk/AndroidWeiboCase/lint.xml
+END
+aspire-android-test-release-key.keystore
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/44/trunk/AndroidWeiboCase/aspire-android-test-release-key.keystore
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/44/trunk/AndroidWeiboCase/AndroidManifest.xml
+END
+case.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/45/trunk/AndroidWeiboCase/case.xml
+END
+ant.properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/44/trunk/AndroidWeiboCase/ant.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/44/trunk/AndroidWeiboCase/build.xml
+END
+cp_attachment.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/45/trunk/AndroidWeiboCase/cp_attachment.bat
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/44/trunk/AndroidWeiboCase/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/45/trunk/AndroidWeiboCase/project.properties
+END

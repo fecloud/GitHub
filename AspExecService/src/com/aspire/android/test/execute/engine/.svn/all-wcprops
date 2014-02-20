@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine
+END
+MTEPMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/MTEPMessageListener.java
+END
+TTResponseMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/TTResponseMessageListener.java
+END
+EngineClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/EngineClient.java
+END
+RawTypeMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/RawTypeMessageListener.java
+END
+AlarmMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/AlarmMessageListener.java
+END
+SyncMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/SyncMessageListener.java
+END
+IAPSMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/IAPSMessageListener.java
+END
+IMTEPMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/IMTEPMessageListener.java
+END
+GrabImageMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/execute/engine/GrabImageMessageListener.java
+END

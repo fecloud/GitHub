@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action
+END
+VarManageDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action/VarManageDialog.java
+END
+SimpleShell.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action/SimpleShell.java
+END
+StringConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action/StringConstants.java
+END
+VarSetDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action/VarSetDialog.java
+END
+DialogExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action/DialogExample.java
+END
+ConditionManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action/ConditionManage.java
+END
+MyActionGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/363/trunk/Eclipse-RCP/Demo/src/demo/action/MyActionGroup.java
+END

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/contents_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="指标列表："
+        android:textColor="@color/red"
+        android:textSize="25dip"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/index_list"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/contents_title1"
+        android:scrollingCache="false" >
+    </ListView>
+
+ <!--    <Button
+        android:id="@+id/index_list_button"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/index_list"
+        android:layout_alignParentRight="true"
+        android:text="@string/back" /> -->
+
+</RelativeLayout>

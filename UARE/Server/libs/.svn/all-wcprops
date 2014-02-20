@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/222/trunk/UARE/Server/libs
+END
+protocol.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/222/trunk/UARE/Server/libs/protocol.jar
+END
+log4j-1.2.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/126/trunk/UARE/Server/libs/log4j-1.2.17.jar
+END

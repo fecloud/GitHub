@@ -1,0 +1,4 @@
+#example AND{1,2,3}  OR{1,2}
+#key:activity full name 
+#value:lang_except result
+com.inspurworld.agent.AgentActivity=0_Inspur

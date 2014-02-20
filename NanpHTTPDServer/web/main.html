@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>main</title>
+<style type="text/css">
+html,body,div,p,fieldset,input,button,input,h1,h2,h3,fieldset,form{margin:0;padding:0;}
+fieldset,img{border:0;}
+legend{display:none;}
+em{font-style:normal;}
+body{text-align:left;font:12px/2 \5FAE\8F6F\96C5\9ED1,Tahoma,Helvetica,Arial,\5B8B\4F53,sans-serif;color:#4D4D4D;background-color:#E7E7E7}
+
+.cont{margin:0 auto;}
+.header{margin-top:5px;border-bottom:1px solid #BFBFBF}
+.header .cont{margin-left: auto;margin-right: auto;position:relative;bottom:-1px;height:50px;border-bottom:1px solid #BFBFBF;}
+.header h1{padding-top:8px;font-size:16px;color:#323232;text-align:center}
+
+.content{margin:10px;}
+.content .cont{margin-left: auto;margin-right: auto;position:relative;bottom:-1px;border-bottom:1px solid #BFBFBF;}
+.content img{margin:20px;}
+.content h1 {padding-left:10px;font-size:16px;color:#323232;} 
+.content span{padding-left:10px;}
+.i_mg{position: relative;height:100px;background:url(images/137.png) no-repeat  center}
+
+.log{margin:10px;}
+.log h1 {padding-left:10px;font-size:16px;color:#323232;} 
+.log span{padding-left:10px;}
+.upload_add{margin:10px;border:1px solid #BFBFBF;background-color:#FFFFFF;padding:3px 3px 3px 5px ;font-size:13px}
+.warning{color:#FF0000}
+.line {margin: 0px 10px;}
+.linew {margin: 0px 10px;color:#FF0000}
+
+</style>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+
+function loadHttpAddress(v){
+	$("#upload_add").html(v.add);
+	$("#upload_add").removeClass("warning");
+}
+
+function waringHttpAddress(v){
+	$("#upload_add").html(v.add);
+	$("#upload_add").addClass("warning");
+}
+
+function addLog(v){
+	console.log(v.log);
+	
+	$("#logconsole").html(v.log)
+}
+
+</script>
+
+
+</head>
+
+<body>
+<div class="header">
+	<div class="cont">
+		<h1>Wireless File Upload </h1>
+	</div>
+</div>
+
+<div class="content">
+	<div class="cont">
+		<div class="i_mg"></div>
+		<h1>1.在电脑WEB浏览器中访问以下地址</h1>
+		<div class="upload_add" >
+			<span class="warning" id="upload_add">等待服务启动</span>
+		</div>
+		<h1>2.选择要保存到设备的文件并上传</h1>
+		<span class="warning">确保您的设备和电脑已连接在同一局域网中!</span>
+	</div>
+</div>
+<div class="log">
+	<div class="cont">
+		<h1>传输日志：</h1>
+	</div>
+	<div class="logconsole" id="logconsole">
+		
+	</div>
+</div>
+
+</body>
+</html>

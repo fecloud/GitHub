@@ -1,0 +1,25 @@
+目录结构 
+根目录：可配置 ${basedir}
+
+配置文件目录： ${basedir}/config/
+       : 后端URL配置文件  ${basedir}/config/config.ini
+
+为上传结果目录： ${basedir}/results/<标识>_<设备编码>_<测试地点>_<上传时间>_<序列号>.zip
+
+(暂时不保存，上传后删除结果ZIP包)上传完成后将结果移动到： ${basedir}/results_uploaded/<标识>_<设备编码>_<测试地点>_<上传时间>_<序列号>.zip
+
+案例目录： ${basedir}/cases/
+
+案例运行日志目录：
+例如： 案例 com.aspire.android.test.demo.DemoTestCase
+    ${basedir}/logs/${任务批次开始执行时间}_${taskId}_${taskbatchid}/${casename}/
+  
+    ${basedir}/logs/20120523142530_1_2/com.aspire.android.test.demo.DemoTestCase/run.log
+    ${basedir}/logs/20120523142530_1_2/com.aspire.android.test.demo.DemoTestCase/1.jpg
+    
+    
+ 案例文件：
+    {案例名}.zip
+           /cases.xml
+           /*.apk
+           /attachments/

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="IpUpload" basedir="." default="zip-release">
+
+	<property name="src.dir" location="src" />
+	<property name="libs.dir" location="libs" />
+	<property name="config.dir" location="config" />
+	<property name="build.dir" location="build" />
+	<property name="dest.dir" location="${build.dir}/classes" />
+	<property name="build.bin.dir" location="build/bin" />
+	<property name="build.config.dir" location="build/config" />
+	<property name="package.jar" value="${build.dir}/ipupload.jar" />
+	<property name="ipupload-run.jar" value="${build.dir}/ipupload-run.jar" />
+	<property name="startup.bat" location="startup.bat" />
+	<property name="startup.sh" location="startup.sh" />
+	<property name="ipupload-release.zip" location="${build.dir}/ipupload-release.zip" />
+
+	<!--编译相关参数-->
+	<property name="java.encoding" value="UTF-8" />
+	<property name="java.target" value="1.5" />
+	<property name="java.source" value="1.5" />
+	<property name="verbose" value="false" />
+	
+	<target name="clean">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="-build-clean">
+		<delete dir="${build.bin.dir}"></delete>
+		<delete dir="${build.config.dir}"></delete>
+	</target>
+	
+	<target name="-pre-compiler">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${dest.dir}" />
+	</target>
+
+	<target name="compiler" depends="-pre-compiler">
+		<echo level="info">compiler start</echo>
+		<javac srcdir="${src.dir}" destdir="${dest.dir}" encoding="${java.encoding}" target="${java.target}" includeantruntime="false" verbose="${verbose}">
+			<classpath>
+				<fileset dir="${libs.dir}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+		<echo level="info">compiler finish</echo>
+	</target>
+
+	<target name="package-jar" depends="compiler">
+		<echo level="info">package jar start</echo>
+		<jar destfile="${package.jar}" basedir="${dest.dir}">
+			<manifest>
+				<attribute name="Main-class" value="com.braver.ip.main.Main" />
+			</manifest>
+			<zipfileset file="${src.dir}/log4j.properties" />
+		</jar>
+		<echo level="info">package jar finish</echo>
+		<delete dir="${dest.dir}" description="delete compile dir" />
+	</target>
+
+	<target name="makeSuperJar" depends="package-jar">
+		<jar destfile="${ipupload-run.jar}">
+			<zipfileset src="${package.jar}" />
+			<zipfileset src="${libs.dir}/commons-email-1.2.jar" />
+			<zipfileset src="${libs.dir}/log4j-1.2.17.jar" />
+			<zipfileset src="${libs.dir}/mail.jar" />
+			<manifest>
+				<attribute name="Main-class" value="com.braver.ip.main.Main" />
+			</manifest>
+		</jar>
+		<delete file="${package.jar}" />
+	</target>
+
+	<target name="-zip-release-pre" depends="makeSuperJar">
+		<mkdir dir="${build.bin.dir}" />
+		<mkdir dir="${build.config.dir}" />
+		<copyfile dest="${build.bin.dir}/ipupload-run.jar" src="${ipupload-run.jar}" />
+		<copyfile dest="${build.bin.dir}/ipupload-run.jar" src="${ipupload-run.jar}" />
+		<copyfile dest="${build.bin.dir}/startup.bat" src="${startup.bat}" />
+		<copyfile dest="${build.bin.dir}/startup.sh" src="${startup.sh}" />
+		<copydir dest="${build.config.dir}" src="${config.dir}" />
+		<delete file="${ipupload-run.jar}" />
+		<zip destfile="${ipupload-release.zip}" basedir="${build.dir}"></zip>
+	</target>
+
+	<target name="zip-release" depends="-zip-release-pre,-build-clean">
+	</target>
+
+</project>

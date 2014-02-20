@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/database
+END
+MidDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/database/MidDatabase.java
+END
+DBManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/database/DBManager.java
+END
+DBHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/eldmose/database/DBHandler.java
+END

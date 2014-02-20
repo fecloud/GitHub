@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/util
+END
+GetCurrentScreenInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/util/GetCurrentScreenInfo.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/util/Utils.java
+END
+ExecCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/util/ExecCommand.java
+END
+GetRemoteAgentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/util/GetRemoteAgentService.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/347/trunk/UARE/Agent/src/com/aspire/uare/agent/util/FileUtil.java
+END

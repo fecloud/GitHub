@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/business/module/msgpush
+END
+MsgPushListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/business/module/msgpush/MsgPushListener.java
+END
+MsgPushModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/business/module/msgpush/MsgPushModule.java
+END
+MsgPushDataUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/business/module/msgpush/MsgPushDataUtil.java
+END
+MsgPushData.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/business/module/msgpush/MsgPushData.java
+END
+HandlerMsgPushUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/business/module/msgpush/HandlerMsgPushUtil.java
+END

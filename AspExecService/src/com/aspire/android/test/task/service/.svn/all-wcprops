@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/service
+END
+ITaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/service/ITaskService.java
+END
+ClearDbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/service/ClearDbService.java
+END
+TaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/service/TaskService.java
+END
+OperateResultFromPc.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/service/OperateResultFromPc.java
+END
+IClearDbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/389/trunk/AspExecService/src/com/aspire/android/test/task/service/IClearDbService.java
+END

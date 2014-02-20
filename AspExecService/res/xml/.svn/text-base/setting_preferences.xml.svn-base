@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置本机信息 -->
+
+    <PreferenceScreen android:title="@string/set_message" >
+        <EditTextPreference
+            android:key="devic_name"
+            android:singleLine="true"
+             android:hint="@string/hint_content"
+            android:summary="@string/set_devic_name"
+            android:title="@string/set_devic_name" />
+        <EditTextPreference
+            android:key="set_phone"
+            android:negativeButtonText="@string/cancer"
+            android:positiveButtonText="@string/OK"
+            android:singleLine="true"
+            android:summary="@string/set_phone_num"
+            android:title="@string/set_phone_num" />
+        <EditTextPreference
+            android:key="set_terminal"
+            android:singleLine="true"
+            android:summary="@string/set_terminal"
+            android:title="@string/set_terminal" />
+        <EditTextPreference
+            android:key="set_IMEI"
+            android:singleLine="true"
+            android:summary="@string/set_IMEI"
+            android:title="@string/set_IMEI" />
+        <EditTextPreference
+            android:key="ip"
+            android:singleLine="true"
+            android:summary="@string/set_IP"
+            android:title="@string/set_IP" />
+
+        <ListPreference
+            android:dialogTitle="@string/set_province"
+            android:key="set_province"
+            android:title="@string/set_province" />
+        <ListPreference
+            android:dialogTitle="@string/set_city"
+            android:entries="@array/set_citys"
+            android:entryValues="@array/set_city_values"
+            android:key="set_city"
+            android:title="@string/set_city" />
+
+        <EditTextPreference
+            android:defaultValue="szzw"
+            android:key="set_company"
+            android:singleLine="true"
+            android:summary="@string/set_company"
+            android:title="@string/set_company" />
+        <EditTextPreference
+            android:key="set_test_people"
+            android:singleLine="true"
+            android:summary="@string/set_test_people"
+            android:title="@string/set_test_people" />
+
+        <!--
+             <ListPreference
+            android:dialogTitle="@string/file_title"
+            android:entries="@array/file_optin_item"
+            android:entryValues="@array/file_optin_values"
+            android:key="file_option"
+            android:summary="@string/file_option_type"
+            android:title="@string/file_option" />
+        -->
+    </PreferenceScreen>
+
+    <!-- 设置系统信息 -->
+
+    <PreferenceScreen android:title="@string/set_system_parameter" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="data_get_switch"
+            android:summary="@string/switch_open"
+            android:title="@string/set_switch" />
+
+        <ListPreference
+            android:dialogTitle="@string/uploads_type"
+            android:entries="@array/results_uploads"
+            android:entryValues="@array/flow_mode_values"
+            android:key="uploads_type"
+            android:summary="@string/set_uploads_type"
+            android:title="@string/set_results_uploads" />
+
+        <!--
+             <EditTextPreference
+            android:key="engine_updates_address"
+            android:singleLine="true"
+            android:title="@string/engine_updates_address" />
+         
+             <EditTextPreference
+            android:key="engine_download_time_interval"
+            android:singleLine="true"
+            android:title="@string/engine_download_time_interval" />
+        -->
+
+        <EditTextPreference
+            android:key="Performance_data_collection_frequency"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:title="@string/Performance_data_collection_frequency" />
+        <EditTextPreference
+            android:key="sms_controal_number"
+            android:singleLine="true"
+            android:title="@string/sms_controal_number" />
+        <EditTextPreference
+            android:defaultValue="/aspire/es/"
+            android:key="set_save_address"
+            android:singleLine="true"
+            android:title="@string/set_save_address" />
+    </PreferenceScreen>
+
+    <!-- 接口类 -->
+    <PreferenceScreen android:title="@string/set_interface" >
+
+        <!-- 脚本查询接口 -->
+        <EditTextPreference
+            android:defaultValue="http://10.1.5.154:8080/sqmp/ScriptQuery.action"
+            android:key="script"
+            android:singleLine="true"
+            android:title="@string/set_script" />
+        <!-- 终端设备采集 -->
+        <EditTextPreference
+            android:defaultValue="http://10.1.5.154:8080/sqmp/DeviceRegister.action"
+            android:key="equipment"
+            android:singleLine="true"
+            android:title="@string/terminal_equipment" />
+        <!-- 终端设备心跳 -->
+        <EditTextPreference
+            android:defaultValue="http://10.1.5.154:8080/sqmp/DeviceStatus.action"
+            android:key="heartbeat"
+            android:singleLine="true"
+            android:title="@string/set_heartbeat" />
+        <EditTextPreference
+            android:key="device_time_interval"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:title="@string/device_time_interval" />
+        <!-- 终端设备告警 -->
+        <EditTextPreference
+            android:defaultValue="http://10.1.5.154:8080/sqmp/DeviceAlarm.action"
+            android:key="alarm"
+            android:singleLine="true"
+            android:title="@string/set_alarm" />
+        <!-- 任务获取 -->
+        <EditTextPreference
+            android:defaultValue="http://10.1.5.154:8080/sqmp/TaskQuery.action"
+            android:key="task"
+            android:singleLine="true"
+            android:title="@string/get_task" />
+        <EditTextPreference
+            android:key="task_download_time"
+            android:numeric="integer"
+            android:singleLine="true"
+            android:title="@string/task_download_time" />
+        <!-- 密钥更新接口 -->
+        <EditTextPreference
+            android:defaultValue="http://10.1.5.154:8080/sqmp/generateKey/"
+            android:key="password"
+            android:singleLine="true"
+            android:title="@string/set_password" />
+        <!-- 用户名 -->
+        <EditTextPreference
+            android:defaultValue="username"
+            android:key="pwd_update_username"
+            android:singleLine="true"
+            android:title="@string/username" />
+        <!-- 密码 -->
+        <EditTextPreference
+            android:defaultValue="password"
+            android:key="pwd_update_pwd"
+            android:singleLine="true"
+            android:title="@string/password" />
+    </PreferenceScreen>
+
+    <!-- 拨测接口 -->
+
+    <PreferenceScreen android:title="FTP接口" >
+
+        <!-- 业务指标FTP接口 -->
+        <PreferenceScreen android:title="@string/set_ftp_two" >
+
+            <!-- 服务器IP -->
+
+            <EditTextPreference
+                android:key="service_ip_two"
+                android:singleLine="true"
+                android:title="@string/set_service_ip" />
+
+            <!-- 端口号 -->
+            <EditTextPreference
+                android:key="service_port_two"
+                android:singleLine="true"
+                android:title="@string/set_service_port" />
+
+            <!-- 目录 -->
+            <EditTextPreference
+                android:key="service_path_two"
+                android:singleLine="true"
+                android:title="@string/set_service_path" />
+
+            <!-- 用户名 -->
+            <EditTextPreference
+                android:key="service_username_two"
+                android:singleLine="true"
+                android:title="@string/service_username" />
+
+            <!-- 密码 -->
+            <EditTextPreference
+                android:key="service_password_two"
+                android:singleLine="true"
+                android:title="@string/service_password" />
+            <!--
+            暂时用和脚本一样的间隔 
+            <EditTextPreference
+                android:key="upload_time_interval_two"
+                android:numeric="integer"
+                android:singleLine="true"
+                android:title="@string/time_interval" />
+            -->
+        </PreferenceScreen>
+
+        <!-- 拨测脚本FTP接口 -->
+        <PreferenceScreen android:title="@string/set_ftp_three" >
+
+            <!-- 服务器IP -->
+
+            <EditTextPreference
+                android:key="service_ip_three"
+                android:singleLine="true"
+                android:title="@string/set_service_ip" />
+
+            <!-- 端口号 -->
+            <EditTextPreference
+                android:key="service_port_three"
+                android:singleLine="true"
+                android:title="@string/set_service_port" />
+
+            <!-- 目录 -->
+            <EditTextPreference
+                android:key="service_path_three"
+                android:singleLine="true"
+                android:title="@string/set_service_path" />
+
+            <!-- 用户名 -->
+            <EditTextPreference
+                android:key="service_username_three"
+                android:singleLine="true"
+                android:title="@string/service_username" />
+
+            <!-- 密码 -->
+            <EditTextPreference
+                android:key="service_password_three"
+                android:singleLine="true"
+                android:title="@string/service_password" />
+            <EditTextPreference
+                android:key="script_download_time"
+                android:numeric="integer"
+                android:singleLine="true"
+                android:title="@string/script_download_time" />
+        </PreferenceScreen>
+
+        <!-- 拨测结果FTP接口 -->
+        <PreferenceScreen android:title="@string/set_ftp_four" >
+
+            <!-- 服务器IP -->
+
+            <EditTextPreference
+                android:key="service_ip_four"
+                android:singleLine="true"
+                android:title="@string/set_service_ip" />
+            <!-- 端口号 -->
+            <EditTextPreference
+                android:key="service_port_four"
+                android:singleLine="true"
+                android:title="@string/set_service_port" />
+
+            <!-- 目录 -->
+            <EditTextPreference
+                android:key="service_path_four"
+                android:singleLine="true"
+                android:title="@string/set_service_path" />
+
+            <!-- 用户名 -->
+            <EditTextPreference
+                android:key="service_username_four"
+                android:singleLine="true"
+                android:title="@string/service_username" />
+
+            <!-- 密码 -->
+            <EditTextPreference
+                android:key="service_password_four"
+                android:password="true"
+                android:singleLine="true"
+                android:title="@string/service_password" />
+            <EditTextPreference
+                android:key="test_result_upload_interval"
+                android:numeric="integer"
+                android:singleLine="true"
+                android:title="@string/test_result_upload_interval" />
+            <EditTextPreference
+                android:key="test_result_resp_interval"
+                android:numeric="integer"
+                android:singleLine="true"
+                
+                android:title="@string/test_result_resp_interval" />
+        </PreferenceScreen>
+		<EditTextPreference
+                android:key="ftp_data_timeout"
+                android:numeric="integer"
+                android:singleLine="true"
+                
+                android:title="@string/ftp_data_timeout" />
+  <!--       版本升级FTP接口
+        <PreferenceScreen android:title="@string/set_ftp_one" >
+
+            服务器IP
+
+            <EditTextPreference
+                android:key="service_ip_one"
+                android:singleLine="true"
+                android:title="@string/set_service_ip" />
+
+            端口号
+            <EditTextPreference
+                android:key="service_port_one"
+                android:singleLine="true"
+                android:title="@string/set_service_port" />
+
+            目录
+            <EditTextPreference
+                android:key="service_path_one"
+                android:singleLine="true"
+                android:title="@string/set_service_path" />
+
+            用户名
+            <EditTextPreference
+                android:key="service_username_one"
+                android:singleLine="true"
+                android:title="@string/service_username" />
+
+            密码
+            <EditTextPreference
+                android:key="service_password_one"
+                android:singleLine="true"
+                android:title="@string/service_password" />
+        </PreferenceScreen> -->
+    </PreferenceScreen>
+
+</PreferenceScreen>

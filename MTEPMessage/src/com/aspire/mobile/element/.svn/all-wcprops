@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element
+END
+MobileFileInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileFileInfo.java
+END
+MonitorCpuMemConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MonitorCpuMemConfig.java
+END
+MobileMsgAttachment.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileMsgAttachment.java
+END
+MobileMessageInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileMessageInfo.java
+END
+MonitorTimeConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MonitorTimeConfig.java
+END
+MonitorNetResConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MonitorNetResConfig.java
+END
+MonitorFrequencyConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MonitorFrequencyConfig.java
+END
+MobileContactInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileContactInfo.java
+END
+MobilePerformanceDataInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobilePerformanceDataInfo.java
+END
+MonitorBatteryConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MonitorBatteryConfig.java
+END
+MobileContactGroupInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileContactGroupInfo.java
+END
+MobileElementBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileElementBase.java
+END
+MobileCalendarInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileCalendarInfo.java
+END
+MonitorConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MonitorConfig.java
+END
+MobileCallRecordInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MobileCallRecordInfo.java
+END
+MonitorEventConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/383/trunk/MTEPMessage/src/com/aspire/mobile/element/MonitorEventConfig.java
+END

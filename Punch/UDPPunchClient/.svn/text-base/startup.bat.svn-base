@@ -1,0 +1,1 @@
+java -Dworkdir=%cd%\..\ -classpath . -jar ipupload-run.jar 

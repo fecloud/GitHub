@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake
+END
+MsgCertServerResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgCertServerResp.java
+END
+MsgConnectClientReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgConnectClientReq.java
+END
+MsgAuthServerResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgAuthServerResp.java
+END
+MsgSeckeyServerResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgSeckeyServerResp.java
+END
+MsgSecuCheckProgServerResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgSecuCheckProgServerResp.java
+END
+MsgProtocolRetCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgProtocolRetCode.java
+END
+MsgHandShakeFinish.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgHandShakeFinish.java
+END
+MsgAuthClientReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgAuthClientReq.java
+END
+MsgConnectServerResp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgConnectServerResp.java
+END
+MsgSecKeyClientReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgSecKeyClientReq.java
+END
+MsgSecuCheckProgClientReq.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/385/trunk/MID/src/com/aspire/mose/protocol/handshake/MsgSecuCheckProgClientReq.java
+END
